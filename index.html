@@ -163,6 +163,13 @@
       <!-- Reading Article Container -->
       <article class="reader-container" id="reader-pane">
         
+        <!-- Reader Tabs -->
+        <div class="reader-tabs">
+          <button class="tab-btn active" data-tab="interactive" data-en="Interactive Reader" data-tr="İnteraktif Okuma"></button>
+          <button class="tab-btn" data-tab="full-tr" data-en="Full Turkish Text" data-tr="Tam Metin (Türkçe)"></button>
+          <button class="tab-btn" data-tab="full-en" data-en="Full English Text" data-tr="Tam Metin (İngilizce)"></button>
+        </div>
+
         <!-- Interactive Article Title -->
         <header class="reader-header">
           <p class="reader-journal" id="article-journal"></p>
@@ -202,6 +209,7 @@
 
   <!-- Script Loaders -->
   <script src="article-data.js"></script>
+  <script src="article-full-text.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

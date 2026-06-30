@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
     mode: "cognitive", // Default is Cognitive Layer
     theme: "light", // Default is Light Theme
     depth: "full", // Default is Full Word-for-Word
-    activeSection: "abstract"
+    activeSection: "abstract",
+    activeTab: "interactive"
   };
 
   // --- DOM Elements ---
@@ -46,7 +47,11 @@ document.addEventListener("DOMContentLoaded", () => {
     moonIcon: document.querySelector(".moon-icon"),
     modeButtons: document.querySelectorAll(".mode-selector .btn-control"),
     langButtons: document.querySelectorAll(".lang-selector .btn-control"),
-    depthButtons: document.querySelectorAll(".depth-selector .btn-control")
+    depthButtons: document.querySelectorAll(".depth-selector .btn-control"),
+    
+    // Tab selectors
+    tabButtons: document.querySelectorAll(".reader-tabs .tab-btn"),
+    readerHeader: document.querySelector(".reader-header")
   };
 
   // --- Static UI Translations ---
@@ -129,7 +134,11 @@ document.addEventListener("DOMContentLoaded", () => {
           btn.classList.add("active");
           
           updateLanguageUI();
-          renderContent();
+          if (state.activeTab === "interactive") {
+            renderContent();
+          } else {
+            renderFullText();
+          }
           calculateStats();
         }
       });
@@ -198,6 +207,43 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     });
+
+    // Reader tab buttons
+    elements.tabButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const tab = btn.getAttribute("data-tab");
+        if (state.activeTab !== tab) {
+          state.activeTab = tab;
+          elements.tabButtons.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          
+          if (tab === "interactive") {
+            elements.readerHeader.style.display = "block";
+            // Show mode & depth controls in header (remove inactive styling)
+            document.querySelectorAll(".mode-selector, .depth-selector").forEach(el => {
+              el.style.opacity = "1";
+              el.style.pointerEvents = "auto";
+            });
+            renderContent();
+            calculateStats();
+          } else {
+            elements.readerHeader.style.display = "none";
+            // Dim mode & depth controls in header to indicate they don't apply
+            document.querySelectorAll(".mode-selector, .depth-selector").forEach(el => {
+              el.style.opacity = "0.3";
+              el.style.pointerEvents = "none";
+            });
+            renderFullText();
+            // Reset stats display in sidebar to 0% / 0m
+            elements.statReduction.textContent = "0%";
+            elements.statReductionFill.style.width = "0%";
+            elements.statHiddenBlocks.textContent = "0";
+            elements.statTimeSaved.textContent = "0m";
+          }
+          closeTooltip();
+        }
+      });
+    });
   }
 
   // --- Update Light/Dark Theme ---
@@ -262,6 +308,24 @@ document.addEventListener("DOMContentLoaded", () => {
       
       a.addEventListener("click", (e) => {
         e.preventDefault();
+        
+        // If in full text mode, switch back to interactive reader first
+        if (state.activeTab !== "interactive") {
+          state.activeTab = "interactive";
+          elements.tabButtons.forEach(b => b.classList.remove("active"));
+          const btnInteractive = document.querySelector('.tab-btn[data-tab="interactive"]');
+          if (btnInteractive) btnInteractive.classList.add("active");
+          
+          elements.readerHeader.style.display = "block";
+          document.querySelectorAll(".mode-selector, .depth-selector").forEach(el => {
+            el.style.opacity = "1";
+            el.style.pointerEvents = "auto";
+          });
+          renderContent();
+          calculateStats();
+          closeTooltip();
+        }
+        
         const targetSection = document.getElementById(`section-${section.id}`);
         if (targetSection) {
           targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -319,6 +383,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Re-attach triggers popup logic
     attachTriggerEvents();
+  }
+
+  // --- Render Full PDF Text Page-by-Page ---
+  function renderFullText() {
+    elements.articleBody.innerHTML = "";
+    const rawText = state.activeTab === "full-en" ? window.ARTICLE_FULL_TEXT.en : window.ARTICLE_FULL_TEXT.tr;
+    
+    const div = document.createElement("div");
+    div.className = "full-text-content";
+    
+    // Split on separator syntax like "--- PAGE 1 ---" or similar
+    const parts = rawText.split(/--- PAGE (\d+) ---\r?\n?/);
+    
+    if (parts[0] && parts[0].trim()) {
+      const p = document.createElement("p");
+      p.textContent = parts[0].trim();
+      div.appendChild(p);
+    }
+    
+    for (let i = 1; i < parts.length; i += 2) {
+      const pageNum = parts[i];
+      const pageText = parts[i+1];
+      
+      const sep = document.createElement("div");
+      sep.className = "full-text-page-separator";
+      sep.textContent = state.language === "tr" ? `Sayfa ${pageNum}` : `Page ${pageNum}`;
+      div.appendChild(sep);
+      
+      const pageContent = document.createElement("div");
+      pageContent.textContent = pageText ? pageText.trim() : "";
+      div.appendChild(pageContent);
+    }
+    
+    elements.articleBody.appendChild(div);
   }
 
   // --- Render Tables dynamically ---

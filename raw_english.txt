@@ -1,0 +1,1494 @@
+--- PAGE 1 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES  Volume 34  No: 1  2026              1 
+ 
+ 
+ 
+FRAMING CLIMATE CHANGE AS A HUMAN SECURITY 
+CHALLENGE: A COMPARATIVE ANALYSIS OF THE U.S. UNDER 
+THE TRUMP ADMINISTRATION AND THE EUROPEAN UNION 
+ 
+ 
+RABİA UZUN*  
+ 
+Abstract 
+This article examines how two major global actors—the United States (U.S.) 
+and the European Union (EU)—have framed climate change from a human 
+security perspective, with a particular focus on the Trump era. Drawing on 
+Frame Theory, the study explains how political narratives and policy discourses 
+construct the meaning of climate change and analyzes how this construction 
+shapes public perception and policy priorities. Through a qualitative 
+comparative analysis of official speeches and policy documents, significant 
+differences are identified between the framing approaches of the U.S. and the 
+EU. The Trump administration primarily addressed climate change within the 
+context of economic interests and energy independence, whereas the EU framed 
+it as a global and humanitarian security issue requiring multilateral cooperation. 
+The article argues that determining whether global actors frame climate change 
+within a human security paradigm is crucial for understanding how framing 
+processes shape the conceptualization of security and redefine the relationship 
+between the environmental and political spheres. 
+Keywords: Climate change, human security, frame theory, United States, 
+European Union 
+ 
+                                                        
+* PhD student, Beykent University, Department of Political Science and International 
+Relations. e-mail: rabiauzun1305@gmail.com, ORCID: 0009-0006-1457-0313.  
+How to cite this article/Atıf için: Uzun, R. (2026). Framing Climate Change as a Human 
+Security Challenge: A Comparative Analysis of The U.S. Under The Trump Administration 
+and The European Union. Marmara Avrupa Araştırmaları Dergisi, 34(1), 1-32.  
+Submission Date: 27.11.2025 - Acceptance Date: 15.06.2026 
+ 
+RESEARCH ARTICLE / ARAŞTIRMA MAKALESİ 
+
+--- PAGE 2 ---
+2                                                                       FRAMING CLIMATE CHANGE AS... 
+ 
+İKLİM DEĞİŞİKLİĞİNİN İNSAN GÜVENLİĞİ SORUNU OLARAK 
+ÇERÇEVELENMESİ: TRUMP DÖNEMİNDE ABD VE AVRUPA 
+BİRLİĞİ’NİN KARŞILAŞTIRMALI ANALİZİ 
+ 
+Öz 
+Bu makale, iki büyük küresel aktör olan Amerika Birleşik Devletleri (ABD) 
+ile Avrupa Birliği’nin (AB) iklim değişikliğini insan güvenliği perspektifinden 
+nasıl çerçevelediğini, özellikle de Trump dönemi odağında incelemektedir. 
+Çerçeveleme Teorisi’nden yararlanan çalışma, politik anlatıların ve politika 
+söylemlerinin iklim değişikliği olgusuna nasıl anlam kazandırdığını ve bu 
+anlamlandırma sürecinin kamu algısını ve politika önceliklerini nasıl 
+şekillendirdiğini açıklamaktadır. Resmî konuşmalar ve politika belgeleri üzerine 
+yapılan nitel karşılaştırmalı analiz, ABD ile AB’nin çerçeveleme yaklaşımları 
+arasında önemli farklar bulunduğunu ortaya koymaktadır. Trump yönetimi iklim 
+değişikliğini ağırlıklı olarak ekonomik çıkarlar ve enerji bağımsızlığı 
+bağlamında ele alırken, AB bunu çok taraflı iş birliği gerektiren, küresel ve 
+insani güvenlik meselesi olarak çerçevelemiştir. Makale, küresel aktörlerin iklim 
+değişikliğini 
+bir 
+insan 
+güvenliği 
+paradigması 
+içinde 
+çerçeveleyip 
+çerçevelemediklerinin, çerçeveleme süreçlerinin güvenlik kavrayışını nasıl 
+şekillendirdiğini ve çevresel alan ile siyasal alan arasındaki ilişkiyi nasıl yeniden 
+tanımladığını anlamak açısından kritik olduğunu ileri sürmektedir. 
+Anahtar Kelimeler: İklim değişikliği, insan güvenliği, çerçeveleme teorisi, 
+Amerika Birleşik Devletleri, Avrupa Birliği 
+Introduction 
+The effects of climate change are becoming increasingly evident today, and 
+the anticipated global consequences represent a multidimensional threat to 
+international security. The security implications of climate change are not 
+confined to state-centered threats alone; rather, climate change has emerged as 
+an issue of “human security,” endangering individuals’ living conditions, 
+livelihoods, health, and access to shelter. In this context, the multifaceted risks 
+posed by climate change are redefining the scope of security and bringing the 
+relationship between environmental sustainability and human well-being into 
+contemporary security debates. 
+When discussing the impacts of climate change on human security, it becomes 
+crucial to examine how actors within the international system address this issue. 
+Beyond the inherent relationship between climate change and human security, 
+
+--- PAGE 3 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         3 
+understanding how states perceive and interpret this phenomenon is essential for 
+grasping the policies they pursue in response to this global threat. Building on 
+this premise, this study comparatively analyzes how two major global actors—
+the United States and the European Union—framed climate change as a human 
+security issue, with a particular focus on the two Trump administrations. 
+This article seeks to answer the following research question: How have the 
+U.S. under the Trump administration and the EU framed climate change as a 
+human security challenge? By addressing this question, the study aims to reveal 
+how the framing approaches of these two actors have brought climate change 
+onto their respective security agendas and shaped their conceptualizations of 
+human security. 
+This article adopts a qualitative comparative research design based on framing 
+analysis. Drawing on Entman’s framing theory, it examines how the United 
+States under the Trump administration and the European Union frame climate 
+change in relation to human security. The study focuses on Trump’s first 
+presidential term (2016–2020) and his second presidential term, which began in 
+2025. 
+The analysis is based on 19 primary texts and institutional materials. The U.S. 
+material includes six texts: one presidential speech, one presidential 
+proclamation, and four executive orders. The EU material includes 13 texts: one 
+European Council presidency conclusion, five European Commission 
+communications or notices, three European Commission institutional webpages, 
+one European Commission audiovisual statement, one joint report by the 
+European Commission and the High Representative, and two European External 
+Action Service documents. The selected documents were included because they 
+are official or institutionally attributable texts that directly address the article’s 
+research question. They reflect how the Trump administration and the EU define 
+climate change, assign responsibility, make normative evaluations, and justify 
+policy responses. Therefore, they provide a suitable basis for comparing how 
+climate change is framed in relation to human security. The analysis follows 
+Entman’s four framing functions: problem definition, causal interpretation, moral 
+evaluation, and treatment recommendation. The texts were examined to identify 
+how climate change was defined, explained, evaluated, and linked to policy 
+responses, and whether it was framed as a human security issue. 
+Theoretical Framework 
+The conceptual framework of this study is grounded in frame theory. Framing 
+is essentially a rhetorical tool used by communicators to delimit an argument. 
+The purpose of strategic framing is to direct the audience’s attention toward a 
+
+--- PAGE 4 ---
+4                                                                       FRAMING CLIMATE CHANGE AS... 
+desired perspective. Therefore, framing constitutes a critical element in the 
+construction of social reality by shaping perceptions (Hallahan, 2008). It plays a 
+key role in the formation of social issues and the public discourses surrounding 
+them. From a political standpoint, framing is strategically employed to influence 
+public opinion and to guide the representation of political narratives (Gözkaman, 
+2025). 
+Frames are defined not only by what they include but also by what they 
+exclude. While drawing attention to certain aspects of reality, they 
+simultaneously obscure others (Kahneman and Tversky, 1984). In the political 
+context, actors approach an issue not in its entirety but by emphasizing the 
+elements that serve their objectives, thereby engaging in targeted propaganda. 
+Selecting certain aspects of an issue while disregarding others plays a 
+fundamental role in shaping public opinion and decision-making processes 
+(Gözkaman, 2025a). From this standpoint, a frame establishes the boundaries of 
+interpretation and provides the lens through which reality is perceived 
+(Gözkaman, 2025b). Politicians seek to mobilize voters behind their policies and 
+encourage them to think along specific interpretive lines (Chong and Druckman, 
+2007). 
+Framing can be evaluated in both positive and negative terms. On one hand, 
+it may be viewed as a strategy for manipulating or deceiving individuals; on the 
+other, it can neutrally refer to a learning process through which people develop 
+shared beliefs. However, within the public sphere, framing often carries negative 
+connotations. The effects of framing suggest that public preferences are 
+arbitrarily distributed and that political elites may manipulate these preferences 
+to serve their own interests. The aim here is not to determine what the information 
+itself is, but rather how the same information is contextualized or presented. For 
+instance, framing outcomes in terms of “gains” or “losses” can alter individuals’ 
+responses to risk (Cacciatore et al., 2016). In other words, when two actors 
+emphasize opposing aspects of the same situation in ways that serve their 
+respective interests and use these for propaganda, it can be observed that their 
+publics perceive the very same situation in entirely opposite ways. 
+A frame typically fulfills four core functions. The first is problem definition, 
+which identifies the agents responsible for an issue and the consequences of their 
+actions. The second is diagnosing causes, the third involves making moral 
+evaluations, and the fourth is proposing solutions. The concept of salience is 
+crucial in framing. In framing, it is not only important to select certain aspects of 
+perceived reality but also to make them more prominent within a communicating 
+text. This is done in such a way as to promote a specific problem definition, 
+
+--- PAGE 5 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         5 
+causal interpretation, moral evaluation, or proposed remedy for the issue at hand 
+(Entman, 1993).  
+In conclusion, framing is not a superficial discursive tool of political 
+communication but rather a strategic practice that constructs power relations, 
+generates legitimacy, and shapes public perception. For politicians, framing 
+involves not merely conveying ideas but also defining and reconstructing social 
+reality. Hence, framing should be regarded as one of the fundamental instruments 
+of power in contemporary democratic politics. 
+It is therefore unsurprising that many studies in International Relations (IR) 
+have adopted framing as an analytical lens. Scholars have employed the paradigm 
+to examine a wide range of phenomena, including foreign policy change (Barnett, 
+1999) and legitimation (Goddard, 2009), power (Sorkar, 2022), norm dynamics 
+(Payne, 2001; Finnemore, 2015), media-foreign policy interactions (Entman, 
+2009) and the role of non-state actors in international relations (Bob, 2005). A 
+particularly vibrant area of inquiry has been securitization studies (Vultee, 2010; 
+Rushton, 2010) including those that focus on areas that prioritize collective 
+securitization (Gözkaman, 2024; Sperling and Webber, 2017; Sperling and 
+Webber, 2019). Closely related to the focus of this article, it is also worth noting 
+that framing has been extensively applied to environmental politics, 
+encompassing country-specific analyses (Martus, 2021; Rowe, 2013), NGO-
+focused research (Allan and Hadden, 2017) and studies on green diplomacy 
+(Broadhead, 2002). 
+In this study, frame theory is employed to analyze how the U.S. and the EU 
+constructed their discourses on climate change under the two Trump 
+administrations, and whether they framed the issue within the context of human 
+security. Since the Trump administration portrayed environmental regulations as 
+obstacles to economic growth, its framing did not conceptualize climate change 
+as a security threat. In contrast, the EU’s discourse adopted a human security and 
+collective responsibility framework, linking climate action to the protection of 
+human life, global justice, and sustainable development. Accordingly, frame 
+theory provides a robust theoretical foundation for this comparative analysis by 
+revealing how meaning is constructed, communicated, and contested in climate 
+change politics. It enables the identification of key discourses that shape whether 
+climate change is perceived as a trivial issue or as a comprehensive human 
+security challenge requiring global cooperation. 
+Literature Review 
+The existing literature includes extensive studies on climate change and 
+human security, which highlight the impacts of climate change on various 
+
+--- PAGE 6 ---
+6                                                                       FRAMING CLIMATE CHANGE AS... 
+dimensions of human well-being (Mason, 2015; Dalby, 2013; Barnett and Adger, 
+2007; O’Brien, 2010; Saul and McAdam, 2009). Additionally, there is a 
+substantial body of work examining how the U.S. and the EU frame the issue of 
+climate change and shape their respective climate policies. Drawing on this 
+literature, it is evident that the EU conceptualizes climate change as a global 
+threat and a “challenge to human security”. Accordingly, EU policy documents 
+allocate significant attention to climate change within their broader security and 
+environmental agendas (Dupont, 2023; Skovgaard, 2013; Rayner, 2016; Jordan 
+et al., 2012; Baute, 2024; Richter and Wanner, 2025). In contrast, the U.S., 
+particularly under the Trump administration, has approached the issue of climate 
+change through a lens dominated by political and economic priorities. In recent 
+years, references to “climate change” have even been excluded from certain 
+scientific research frameworks. The U.S. tends to frame climate change not as a 
+matter of national or human security, but rather as a political issue that restricts 
+economic freedoms (Jacobs and Khan, 2025; Frumkin et al., 2025). From this 
+perspective, the EU and the U.S. represent two fundamentally opposing 
+approaches.  
+Although limited, some comparative analyses in the literature have examined 
+how the EU and the U.S. frame and construct their climate policies (Hayes and 
+Knox-Hayes, 2014; Carlarne, 2006; Bakker and Francioni, 2016; Carlarne, 2010; 
+Wendler, 2022). Wendler (2022), for instance, analyzes the interactions between 
+parliaments and executive bodies in both the EU and the U.S., demonstrating how 
+the issue of climate change is framed and politicized in distinct ways. However, 
+Wendler’s analysis was conducted before Trump’s return to the presidency for a 
+second term. Indeed, Wendler notes that, in the aftermath of the Russia–Ukraine 
+war, the trajectory of U.S. climate policy remained difficult to predict and 
+suggests that the suspension of U.S. energy imports from Russia could potentially 
+push the country toward greater reliance on sustainable energy sources (Wendler, 
+2022: 226). The political context examined in this article therefore provides an 
+opportunity to reassess this trajectory in light of the second Trump presidency. 
+This article builds on these studies rather than departing from them. Its 
+contribution lies in extending the comparison to the context of Trump’s second 
+presidency and, more importantly, in shifting the analytical focus from climate 
+policy contestation in general to the specific question of whether climate change 
+is framed as a human security challenge. In this respect, the study shows not only 
+that the EU and the U.S. frame climate change differently, but also how these 
+frames redefine the boundaries of security itself. By applying Entman’s four 
+framing functions to both cases, the article demonstrates how each actor defines 
+the problem, attributes responsibility, constructs moral legitimacy, and proposes 
+remedies in ways that either institutionalize or exclude the human security 
+
+--- PAGE 7 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         7 
+dimension of climate change. Therefore, the article contributes to the framing 
+literature by showing that competing climate frames do not merely reflect 
+different policy preferences. Rather, they actively produce different 
+understandings of whose security matters, what forms of vulnerability become 
+politically recognized, and which policy responses are considered legitimate. 
+The Concept of Human Security and Its Role in Climate Change 
+The concept of human security represents a shift beyond the traditional 
+understanding that centers on the security of the state. Its primary subject is the 
+individual, and its main objective is to protect people from both conventional and 
+non-conventional threats. Expanding the focus of the security agenda beyond the 
+state-centered approach does not imply excluding state security; rather, it 
+complements and broadens it (Gregoratti, 2025). 
+In 1990, the United Nations Development Programme (UNDP) began 
+publishing annual reports on the human dimension of development. The 1990 
+Human Development Report marked the first step in this direction (United 
+Nations Development Programme, 1990). Building on this, the 1994 Human 
+Development Report officially introduced an expansive framework for human 
+security, categorizing threats into seven broad dimensions: economic, food, 
+health, environmental, personal, community, and political security (United 
+Nations Development Programme, 1994). However, this all-encompassing 
+conceptualization has been debated particularly in relation to the distinction 
+between broad and narrow definitions of human security. In this context, Roland 
+Paris (2001: 88) criticized existing definitions as “expansive and vague” and 
+argued that such “cultivated ambiguity” made human security effective as a 
+political campaign slogan but less useful as a practical guide for academic 
+research and policymaking. By contrast, Pettman (2005: 140–141) warned that 
+attempts to narrow the concept within rigid rationalist or state-centric 
+frameworks may obscure the communal, cultural, and sacred dimensions of 
+human vulnerability. Criticizing Pettman’s position, Paris (2005: 481) argued 
+that a concept formulated in such a way as to potentially encompass everything 
+risks becoming an “empty container” or a “Rorschach ink blot.” He further stated 
+that if human security means everything, then it effectively means nothing. These 
+debates show that human security is shaped by a tension between clarity and 
+breadth. Against this background, during the same year as the inaugural 1990 
+UNDP report, the Intergovernmental Panel on Climate Change (IPCC) released 
+its First Assessment Report (FAR). Although the report did not yet refer 
+explicitly to the concept of human security, it identified the threats that climate 
+change poses to humanity (Intergovernmental Panel on Climate Change, 1992). 
+The 1994 Human Development Report elaborated on the nature and global 
+
+--- PAGE 8 ---
+8                                                                       FRAMING CLIMATE CHANGE AS... 
+dimensions of human security (United Nations Development Programme, 1994). 
+The report emphasized that environmental problems constitute a global threat to 
+human security. Over time, the significance of human security in relation to 
+climate change has grown substantially. UN Secretary-General António 
+Guterres, in his speech at the Security Council open debate on 9 December 2021 
+titled “Maintenance of international peace and security: Security in the context 
+of terrorism and climate change,” warned that climate change, through its 
+“multiplier effect,” exacerbates instability, conflict, and terrorism (United 
+Nations, 2021). 
+The UN Climate Action outlined five ways the climate crisis impacts human 
+security. Accordingly, climate change intensifies competition over land and 
+water. As the planet warms, longer and more severe droughts lead to soil erosion, 
+dried pastures, and reduced crop yields. Floods and landslides destroy farmland 
+and infrastructure, while water resources become increasingly scarce. Secondly, 
+climate change leads to a decrease in food production and thus increases hunger. 
+Thirdly, it forces people to migrate, as the effects of climate change are displacing 
+more people worldwide. Fourthly, climate change exacerbates poverty and 
+inequality. It disproportionately affects the poorest and most vulnerable. In the 
+poorest countries, a large proportion of the population depends directly on 
+activities most affected by climate change, particularly agriculture, forestry, and 
+fisheries. Lastly, it is stated that climate change increases security risks for 
+women and girls. It is argued that unequal access to resources, combined with 
+conflict and the climate crisis, can leave women and girls disproportionately 
+vulnerable (United Nations, n.d.). The UN Trust Fund for Human Security 
+currently highlights only the concepts of climate change and migration under the 
+“priority issues” section of its official website. The 2030 Agenda is also included 
+in this section (United Nations Trust Fund for Human Security, n.d.). In the 2030 
+Agenda, published in 2015, the section titled “Our world today” identifies 
+climate change as “the greatest challenge of our time,” emphasizing that “the 
+survival of many societies, and of the biological support systems of the planet, is 
+at risk. (United Nations General Assembly, 2015)”. Similarly, the Human 
+Security Handbook published by the UN Trust Fund for Human Security in 2016 
+provides an extensive discussion on the ways in which climate change poses 
+threats to human security (United Nations Trust Fund for Human Security, 2016). 
+U.S. Climate Change Frames under the Trump Administration 
+During Donald Trump’s first presidential term, the issue of climate change 
+was treated by his administration and supporters as an ideological matter, 
+marking a fundamental shift in U.S. climate policy. Federal climate policies and 
+institutions were weakened, the legitimacy of climate science was questioned, 
+
+--- PAGE 9 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         9 
+and research and funding sources came under threat (Jotzo et al., 2018). 
+Moreover, Trump withdrew from the Paris Climate Agreement—widely 
+regarded as one of Barack Obama’s most significant international achievements. 
+In 2019, the United States formally notified the United Nations of its intent to 
+withdraw, citing the “unfair economic burden” the agreement allegedly imposed 
+on American workers, businesses, and taxpayers (United States Department of 
+State, 2019). Trump also justified this decision on the grounds that the agreement 
+placed the U.S. at a competitive disadvantage vis-à-vis China (Emran, 2024). 
+Characterized by his steadfast defense of fossil fuels, Trump’s presidency 
+(2017–2021) was marked by a regression in climate change policies and a 
+renewed prioritization of traditional energy sources. During this period, the 
+United States became the world’s largest producer of oil and natural gas, 
+achieving “energy independence” and delivering historically low prices for oil, 
+gas, diesel, and electricity to consumers and businesses. However, when viewed 
+from a long-term perspective, the outlook for combating climate change during 
+this era appears rather bleak (Emran, 2024). 
+In contrast, during the Biden administration, which came between the two 
+Trump terms, U.S. policy became more focused on climate change than ever 
+before. President Biden framed the climate crisis as a top national priority, acting 
+with the urgency that scientific evidence demanded. His administration sought to 
+accelerate the transition to clean energy while simultaneously generating 
+economic opportunities. To this end, the U.S. set ambitious goals: cutting 
+greenhouse gas emissions by half by 2030, achieving a carbon pollution–free 
+power sector by 2035, and reaching net-zero emissions by 2050. Additionally, 
+the Biden administration aimed to ensure that the benefits of climate investments 
+extended to disadvantaged communities. Through landmark legislation such as 
+the Inflation Reduction Act and the Bipartisan Infrastructure Law, the 
+administration implemented the most comprehensive climate investments in U.S. 
+history. These policies reduced energy costs, created millions of jobs in the clean 
+energy sector, and significantly expanded renewable energy capacity. On the 
+international stage, Biden rejoined the Paris Agreement, increased U.S. climate 
+finance, and reasserted the country’s leadership in promoting a global shift away 
+from fossil fuels. Overall, the Biden era has been characterized by a “green 
+transformation” in which the United States simultaneously pursued 
+environmental sustainability and economic growth (The White House, 2021). 
+In this context, it is evident that the two presidents have framed the issue of 
+climate change in fundamentally different ways. During his first term, the Trump 
+administration refused to recognize climate change as a threat to security or 
+human life, framing climate policy solely as an economic burden on the United 
+
+--- PAGE 10 ---
+10                                                                       FRAMING CLIMATE CHANGE AS... 
+States. It sought to persuade the public in this direction. Hence, he openly 
+declared on numerous occasions his belief that climate change was exaggerated 
+and did not pose a serious threat to the planet. For instance, he dismissed the 
+findings of a report prepared by his own administration regarding the projected 
+economic damages of climate change, stating that he did not “believe” them 
+(BBC News Türkçe, 2018). This framing effectively removed the issue of climate 
+change from the realm of security—where scientific evidence indicates it 
+requires urgent intervention—and instead confined it to an economic discourse. 
+He even characterized climate change as “a Chinese hoax” designed to harm the 
+U.S. economy (Wong, 2016). He also repeatedly stated that he was not convinced 
+global warming was caused by human activity. This position justified his refusal 
+to support measures that, in his view, could cost American jobs.1 In this context, 
+his decision to withdraw the United States from the Paris Climate Agreement and 
+to pursue policies encouraging fossil fuel consumption was hardly surprising 
+(Gözkaman, 2022). 
+In stark contrast, the Biden administration has framed climate change as a 
+threat to both national and human security. By emphasizing “the urgency 
+demanded by science,” it has positioned the issue as both a technical and 
+existential crisis. Even in his farewell address, Biden underscored the gravity of 
+the climate crisis (TGRT Haber TV, 2025). Trump, on the other hand, expressed 
+his view of both Biden’s and Barack Obama’s climate policies in the following 
+terms: 
+“During my first term in office, America became the number 
+one producer of oil and natural gas in the world and the coal 
+industry was coming back — after eight hard years of Obama’s 
+War on Coal. Tragically, after the conclusion of my first term, the 
+previous administration launched a war on American energy — 
+reversing all of my historic first term actions, leading all 50 States 
+to hit record-high gas prices. Meanwhile, the Green New Scam 
+shuttered dozens of coal plants leaving our power grid vulnerable, 
+halted mining productions, and shipped our energy jobs from 
+Texas to Tehran, from the Midwest to Moscow, and from Baton 
+Rouge to Beijing. As I have stated many times before, energy 
+security is national security. My predecessor outrageously 
+                                                        
+1For a broader picture of the climate scepticism that characterized the first Trump 
+administration, see Emily Holden, Jeremy C.F. Lin, “Trump’s climate science doubters”, 
+Politico, 
+3 
+June 
+2018, 
+accessed 
+29 
+October 
+2025, 
+https://www.politico.com/interactives/2018/climate-science-doubters/.  
+
+--- PAGE 11 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         11 
+depleted our Strategic Petroleum Reserve — emboldening our 
+enemies and making us reliant on foreign nations while subjecting 
+the American people to sky-high energy prices here at home 
+(Trump, 2025a).” 
+In Trump’s discourse, climate change is reframed not as a genuine security 
+threat but as an obstacle to achieving energy independence. He harshly criticizes 
+the measures taken by the Obama and Biden administrations on climate security, 
+accusing them of making the United States dependent on other countries for 
+energy. By labeling climate initiatives as the “Green New Scam,” he removes 
+climate change from the realm of global and human security threats, instead 
+portraying it as a purely political and ideological issue. Moreover, by asserting 
+that “energy security is national security,” he seeks to legitimize his policy 
+approach. 
+Since taking office on January 20, 2025, Trump has annulled international 
+agreements and decisions adopted by previous administrations to combat climate 
+change. He has also enacted measures to expand fossil fuel extraction in the 
+United States. On his first day in office, he signed the executive order “Putting 
+America First in International Environmental Agreements.” In this document, he 
+asserted that international agreements on climate change do not reflect U.S. 
+values. He further stated that the U.S. Ambassador to the United Nations would 
+immediately submit written notice of the U.S. withdrawal from the Paris 
+Agreement under the UN Framework Convention on Climate Change 
+(UNFCCC). Additionally, he announced that any financial commitments made 
+by the U.S. under the UNFCCC would be halted or revoked immediately. The 
+administration also terminated the U.S. International Climate Finance Plan 
+(Trump, 2025b). 
+In line with this approach, on the same day, Trump issued another executive 
+order titled “Initial Rescissions of Harmful Executive Orders and Actions,” 
+declaring that “the previous administration has embedded deeply unpopular, 
+inflationary, illegal, and radical practices within every agency and office of the 
+Federal Government” and that “climate extremism has exploded inflation and 
+overburdened businesses with regulation.” Within this framework, which entirely 
+rejects the concept of climate change and the associated human security concerns, 
+numerous previous decisions were rescinded (Trump, 2025c). Examining these 
+repeals will be beneficial. In this context, 11 rescissions have been identified and 
+are presented in the following table. 
+ 
+ 
+
+--- PAGE 12 ---
+12                                                                       FRAMING CLIMATE CHANGE AS... 
+Table 1. Repealed Executive Orders and Their Effects Under Executive Order 
+14148 — “Initial Rescissions of Harmful Executive Orders and Actions” 
+Executive Order 
+Summary and Impact 
+Protecting Public Health 
+and the Environment and 
+Restoring Science To 
+Tackle the Climate Crisis 
+This was the Biden administration’s first 
+executive order aimed at reinstating science-
+based policymaking to address the climate 
+crisis and protect public and environmental 
+health. Trump’s repeal effectively halted 
+federal-level measures against climate change. 
+Tackling the Climate 
+Crisis at Home and Abroad 
+It was a comprehensive order that reestablished 
+the U.S.’ leadership under the Paris Agreement 
+and placed climate change at the center of 
+national security policy. The repeal of this 
+order signifies the removal of both domestic 
+and international dimensions of U.S. climate 
+security policy. 
+Establishment of the 
+Climate Change Support 
+Office 
+Its repeal removed the institutional mechanism 
+entirely. 
+Climate-Related Financial 
+Risk 
+It required federal agencies and investors to 
+incorporate climate risks into their financial 
+decision-making. Its repeal represents the 
+rejection of the economic security dimension of 
+climate policy. 
+Strengthening American 
+Leadership in Clean Cars 
+and Trucks 
+Its repeal eliminates emission reduction 
+strategies in the transportation sector. 
+Catalyzing Clean Energy 
+Industries and Jobs 
+Through Federal 
+Sustainability 
+It aimed to transition federal agencies to 
+carbon-neutral energy and establish sustainable 
+supply chains. Its repeal has halted the clean 
+energy transition at the federal level. 
+Implementation of the 
+Energy and Infrastructure 
+Provisions of the Inflation 
+Reduction Act of 2022 
+It implemented the climate-related energy and 
+infrastructure provisions of the Inflation 
+Reduction Act. Its repeal directly undermines 
+green energy investments. 
+
+--- PAGE 13 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         13 
+Withdrawal of Certain 
+Areas off the U.S. Arctic 
+Coast of the Outer 
+Continental Shelf from Oil 
+or Gas Leasing 
+It was an order that prohibited oil and gas 
+drilling along the Arctic coast. Its repeal 
+reopened fossil fuel exploration in the Arctic — 
+a region of critical importance and extreme 
+sensitivity to climate change. 
+Revitalizing Our Nation’s 
+Commitment to 
+Environmental Justice for 
+All 
+It was an order that linked the concept of 
+environmental justice to the environmental 
+health and safety of disadvantaged 
+communities. Its repeal eliminates the 
+perspectives of environmental equity and 
+human security. 
+Withdrawal of Certain 
+Areas of the United States 
+Outer Continental Shelf 
+from Oil or Natural Gas 
+Leasing 
+It limited oil and natural gas exploration 
+activities in offshore areas, particularly within 
+coastal ecosystems. Its repeal removed the 
+protections previously in place for marine 
+ecosystems. 
+Rebuilding and Enhancing 
+Programs To Resettle 
+Refugees and Planning for 
+the Impact of Climate 
+Change on Migration 
+It was one of the first U.S. policies to recognize 
+the impact of climate change on migration. Its 
+repeal signifies the denial of the link between 
+climate-induced migration and human security. 
+ 
+Source: Author’s own table based on Executive Order 14148 (Trump, 2025c). 
+In the executive order titled “Protecting American Energy From State 
+Overreach,” it is stated that “Many States have enacted, or are in the process of 
+enacting, burdensome and ideologically motivated ‘climate change’ or energy 
+policies that threaten American energy dominance and our economic and 
+national security. (Trump, 2025d)”. This expression reflects an attempt to 
+disregard climate change at the state level as well. Building upon this, the 
+executive order “Restoring Gold Standard Science” is particularly noteworthy. 
+The Trump administration sought to reject the scientifically well-established 
+evidence of climate change and its consequences by portraying science itself as 
+misleading. In this context, the administration criticized federal agencies for 
+relying on the Representative Concentration Pathway (RCP) 8.5 scenario. This 
+scenario is used to assess the potential impacts of climate change under a high-
+warming trajectory. The administration claimed that RCP 8.5 represented an 
+unrealistic worst-case scenario because of assumptions such as coal consumption 
+exceeding extractable reserves by the end of the century. Thus, the administration 
+
+--- PAGE 14 ---
+14                                                                       FRAMING CLIMATE CHANGE AS... 
+once again dismissed climate change by advancing the argument that scientific 
+studies were misleading and that science had been politicized (Trump, 2025e). 
+It has previously been noted that the purpose of strategic framing is to direct 
+the audience’s attention toward a desired perspective, and that framing 
+constitutes a critical element in the construction of social reality by shaping 
+perceptions. In this context, it is observed that the Trump administration sought 
+to steer the public entirely toward considerations of the existing economy and 
+energy independence. It framed the reality of climate change in a way that 
+portrayed climate change measures merely as harmful actions that undermine the 
+economy. 
+As stated in the theoretical framework, according to Entman, framing 
+simultaneously performs four functions that determine how an event should be 
+interpreted: it defines a problem, diagnoses its causes, makes a moral evaluation, 
+and suggests remedies. These four functions can be regarded as the building 
+blocks of discourse. Based on this, the Trump administration, while framing 
+climate policies as an economic threat, also perceives restrictions on fossil fuel 
+production as a threat to national security. At the same time, it defines scientific 
+data on climate change as misleading by claiming that science itself has been 
+politicized. These constitute the problem definitions. The causal interpretations 
+of these problems are attributed to previous administrations, state governments, 
+and the scientific elite. The former administrations are portrayed as having taken 
+measures that weakened the economy and security because they treated climate 
+change as a global threat to human security. Similarly, current state leaders, in 
+Trump’s rhetoric, are accused of engaging in “climate extremism,” while 
+scientific elites are said to be “politicizing science.” Trump’s moral evaluation 
+frames climate policies as a source of economic injustice. Finally, as a treatment 
+recommendation, he argued for — and implemented — the reversal of all 
+previous climate policy decisions. The federal governance structure was thus 
+freed from clean energy commitments. The Department of Justice was tasked 
+with declaring state-level climate laws “illegal” and filing lawsuits, while the 
+standardization of science under government authority effectively closed the 
+climate change issue. This framing makes short-term costs visible, while 
+rhetorically relegating to the background the long-term disasters, health risks, 
+justice concerns, and infrastructure vulnerabilities that pose serious threats to 
+human security. At the same time, it weakened the institutional embeddedness of 
+human security policies and rendered their potential reconstruction in the future 
+more costly. 
+ 
+ 
+
+--- PAGE 15 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         15 
+The European Union’s Climate Change Frames 
+Since the 1990s, the European Union (EU) has acknowledged climate change 
+as a global environmental issue. Initially, however, the member states did not 
+support this stance. For instance, the European Commission’s 1992 proposal to 
+establish a council responsible for introducing and regulating a carbon dioxide 
+and energy tax was withdrawn in 2001 (European Commission, 2001). 
+Nevertheless, the EU has progressively strengthened its position that climate 
+change represents a significant threat. Indeed, in the same year the proposal was 
+rejected, the European Council recognized climate change as a global threat to 
+future prosperity and economic development, emphasizing the importance of 
+taking effective international action to reduce emissions. Reaffirming its 
+commitment to the Kyoto Protocol, the European Council expressed deep 
+concern over any attempts to undermine the agreement. Furthermore, it called 
+upon all negotiating partners to engage in a constructive dialogue to reach 
+consensus on the procedures for implementing the Kyoto Protocol (European 
+Council, 2001). From the perspective of Entman’s framing functions, this early 
+position already indicates the EU’s initial problem definition: climate change is 
+not framed as a purely technical environmental matter, but as a global threat to 
+prosperity, development, and collective security. At the same time, the EU’s 
+emphasis on emission reduction and the implementation of the Kyoto Protocol 
+identifies insufficient international action as a central cause of the problem and 
+presents multilateral cooperation as the appropriate remedy.  
+The 2008 report titled “Climate Change and International Security”, jointly 
+submitted by the European Commission and the High Representative to the 
+European Council, holds significant importance in understanding the process that 
+brought climate change to the forefront of the EU’s current policies. This 
+paragraph from the report is particularly important, as it illustrates how the EU 
+frames climate change in direct connection with human security: 
+“Climate change is best viewed as a threat multiplier which 
+exacerbates existing trends, tensions and instability. The core 
+challenge is that climate change threatens to overburden states 
+and regions which are already fragile and conflict prone. It is 
+important to recognise that the risks are not just of a humanitarian 
+nature; they also include political and security risks that directly 
+affect European interests. Moreover, in line with the concept of 
+human security, it is clear that many issues related to the impact 
+of climate change on international security are interlinked 
+requiring comprehensive policy responses. For example, the 
+attainment of the Millennium Development Goals would be at 
+
+--- PAGE 16 ---
+16                                                                       FRAMING CLIMATE CHANGE AS... 
+considerable risk because climate change, if unmitigated, may 
+well wipe out years of development efforts (European 
+Commission and the High Representative, 2008).” 
+When read through Entman’s framework, this passage enables a systematic 
+analysis of the EU’s climate change discourse in terms of problem definition, 
+causal interpretation, moral evaluation, and treatment recommendation. First, it 
+defines climate change as a security problem by describing it as a “threat 
+multiplier” that exacerbates instability, fragility, and conflict. Second, it 
+diagnoses the causes of insecurity not only in climate change itself, but also in 
+the interaction between climate impacts and pre-existing political, social, and 
+developmental vulnerabilities. Third, it makes a moral evaluation by linking 
+climate change to human security and to the possible reversal of development 
+gains. Finally, it recommends a comprehensive policy response, since the report 
+stresses that climate-related risks are interlinked and cannot be addressed through 
+narrow or sectoral policies alone. 
+In its 2013 communication entitled “The 2015 International Climate Change 
+Agreement: Shaping International Climate Policy Beyond 2020,” issued prior to 
+the 2015 Paris Agreement, the European Commission stated that the first decade 
+of the 21st century had been the warmest on record, and that the summer of 2012 
+had witnessed an unprecedented decline in Arctic sea ice. Emphasizing the 
+increasing frequency of extreme weather events worldwide, the Commission 
+underscored that if climate change were addressed with greater urgency and 
+determination, the most severe consequences of a warming planet could still be 
+averted (European Commission, 2013). In framing terms, this communication 
+increases the salience of climate change by presenting concrete indicators such 
+as rising temperatures, Arctic ice loss, and extreme weather events. It therefore 
+strengthens the EU’s problem definition by portraying climate change as an 
+empirically observable and worsening global crisis. At the same time, its 
+emphasis on urgency and determination reinforces the EU’s treatment 
+recommendation: severe climate impacts can still be prevented, but only if 
+collective action is taken in time. 
+In a video published by the European Commission in 2015, the EU 
+highlighted its actions in combating climate change and emphasized that it 
+continues to play the role of a global champion by assisting developing countries 
+that are more vulnerable to the effects of a changing climate. By providing public 
+climate finance to partners beyond Europe, the EU underscores its belief that the 
+entire world and humanity are under threat and must be protected (European 
+Commission, 2015). This framing contributes especially to the EU’s moral 
+evaluation of the issue. Climate action is presented not only as a policy necessity 
+
+--- PAGE 17 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         17 
+but also as a responsibility toward vulnerable societies. In this respect, the EU’s 
+climate frame is closely linked to solidarity, responsibility, and the protection of 
+human life beyond Europe’s borders. 
+One of the key milestones in formalizing the link between climate and 
+security was the publication of A Global Strategy for the European Union’s 
+Foreign and Security Policy by the European External Action Service (EEAS) in 
+2016. In the section titled The Security of Our Union, the document stresses that 
+climate change endangers the EU’s people and territories (EEAS, 2016). This 
+document further strengthens the security dimension of the EU’s climate frame. 
+By stating that climate change threatens the EU’s own people and territories, the 
+EU connects global climate risks with the direct security of European societies. 
+Thus, the problem is defined simultaneously as external and internal, global and 
+European, humanitarian and strategic. 
+In 2019, the European Union signed the European Green Deal, which was 
+developed based on the understanding that Europe’s future depends on a healthy 
+planet. The European Green Deal was conceived as a new development model 
+aimed at achieving climate neutrality by 2050 by decoupling economic growth 
+from resource use. Within this framework, climate action is viewed not as a cost 
+but as an opportunity for employment and innovation. Guided by the principle of 
+“leaving no one behind,” it seeks a just and inclusive transition, providing support 
+for vulnerable regions and workers. Moreover, it places public health and well-
+being at the center by reducing air, water, and soil pollution. A holistic 
+governance approach is adopted to ensure that all EU policies align with these 
+objectives (European Commission, 2019). From a framing perspective, the 
+European Green Deal translates the EU’s climate-security frame into policy. It 
+identifies unsustainable production and consumption as the source of the crisis, 
+emphasizes justice and public well-being, and promotes broad economic and 
+governance transformation as the solution. 
+In 2020, the EEAS, in cooperation with the European Defence Agency 
+(EDA), published the Climate Change and Defence Roadmap. The document 
+summarizes how climate change poses threats to the entire world and humanity, 
+stating: “The EU has long recognised that climate change acts as a threat 
+multiplier with serious implications for peace and security across the globe. … 
+They will limit the availability of food and water, undermine human health, cause 
+people displacement and degrade infrastructure and economies, biodiversity and 
+resources. (EEAS, 2020)”. This document frames climate change as a defence 
+and security issue while highlighting its impacts on food and water security, 
+health, displacement, infrastructure, economies, biodiversity, and resources. 
+
+--- PAGE 18 ---
+18                                                                       FRAMING CLIMATE CHANGE AS... 
+In 2021, the document titled “'Fit for 55': Delivering the EU’s 2030 Climate 
+Target on the Way to Climate Neutrality” was published, outlining the goal of 
+reducing carbon emissions by 55 percent by 2030 compared to 1990 levels 
+(European Commission, 2021). In Entman’s terms, Fit for 55 reflects the policy 
+remedy dimension of the EU’s climate frame by translating climate neutrality 
+goals into concrete emission reduction targets. The “Guidance on the Social 
+Climate Plans”, published in 2025, details the EU’s efforts to ensure human 
+security and social justice while combating climate change. The main focus of 
+the communication is to make the EU’s transition toward climate neutrality 
+socially equitable. It also highlights the establishment of the Social Climate Fund 
+(SCF) in 2023 as a key mechanism to ensure a socially fair transition toward the 
+EU’s climate neutrality (European Commission, 2025). This document is 
+important for the moral evaluation and treatment recommendation dimensions of 
+the EU’s frame. It presents climate action as both emission reduction and 
+distributive justice, emphasizing support for vulnerable groups through measures 
+that reduce the social costs of the green transition. 
+According to the EU, climate change is a threat multiplier that exacerbates 
+existing crises and triggers conflict and migration. The lives, livelihoods, health, 
+and dignity of individuals are considered to be deeply intertwined with climate-
+related threats. The green transition is presented as an area of opportunity 
+consistent with the EU’s vision of sustainable development, employment, and 
+resilience. From the perspective of framing theory and in light of Entman’s four 
+functions of framing, the EU defines the problem primarily in terms of climate 
+change being a global threat that endangers human life. The causes and culprits 
+of the problem are identified as harmful human activities and the lack of global 
+cooperation, which together deepen the crisis. 
+From a moral standpoint, justice, solidarity, and responsibility constitute the 
+EU’s normative foundation. Finally, as a treatment recommendation, the EU 
+conducts all of its policies through the lens of climate change. Believing that 
+international cooperation is critical to combating climate change, the EU plays 
+an active role in global climate diplomacy. Through policies such as the European 
+Green Deal and Fit for 55, it seeks to address climate change for the sake of 
+humanity’s future. 
+By framing climate change through the lens of human security, the EU renders 
+it a salient, existential, and urgent threat. In this way, an environmental issue is 
+elevated to the center of the security agenda. The human impacts of climate 
+change become the foundation of political legitimacy, while the EU’s image as a 
+normative power is reproduced and reinforced through the discourse of climate 
+security. 
+
+--- PAGE 19 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         19 
+Comparative Analysis: Framing Climate Change through the Lens of 
+Human Security in the U.S. and the EU 
+The U.S. and the EU present two distinct discursive universes in their framing 
+of climate change. While one is grounded in economic nationalism and a short-
+term sovereignty discourse, the other is based on normative multilateralism and 
+the principles of human security2. Within the framework of framing theory, these 
+two actors construct different meanings of climate change, which they employ to 
+legitimize divergent policy pathways and political identities. This comparative 
+analysis reveals how climate change is either excluded from or, conversely, 
+placed at the center of the human security lens. 
+According to Entman’s model, framing is a political cognitive mechanism 
+through which actors define problems, attribute causality, make moral 
+evaluations, and propose policy solutions (Entman, 1993: 52). Table 2 
+summarizes how the U.S. under the Trump administration and the EU frame 
+climate change differently through Entman’s four framing functions. 
+Table 2. Comparative Framing of Climate Change in the U.S. and the EU 
+through Entman’s Four Functions 
+Framing Function 
+U.S. / Trump 
+Administration 
+European Union 
+Problem definition 
+Climate change itself is 
+not framed as a human 
+security threat. Instead, 
+climate policy is defined 
+as an economic burden, a 
+Climate change is 
+defined as a global and 
+human security threat 
+that endangers lives, 
+livelihoods, health, 
+                                                        
+2At this juncture, it is pertinent to recall that Trump evinced a profound skepticism toward the 
+efficacy of multilateralism and an overt indifference to the institutional architectures 
+underpinning international cooperation, a disposition framed within the assertive rhetoric of 
+“America First”. As Gözkaman underscores, this orientation materialized in the United States’ 
+retreat from principal multilateral arrangements and the marked contraction of federal 
+allocations to international organizations—rationalized as fiscally onerous and misaligned 
+with U.S. foreign policy priorities. See Armağan Gözkaman, “The Trump Administration: An 
+Impossible Thrust for Turkey-EU Relations”, in Hüseyin Işıksal, Ozan Örmeci (Eds.), 
+Historical Examinations and Current Issues in Turkish-American Relations, Peter Lang, 
+Berlin, 2020, p. 333.  
+ 
+
+--- PAGE 20 ---
+20                                                                       FRAMING CLIMATE CHANGE AS... 
+constraint on energy 
+independence, and a 
+threat to national 
+competitiveness and 
+energy security. 
+development, and 
+political stability. 
+Causal 
+interpretation 
+Responsibility is 
+attributed to previous 
+administrations, 
+international climate 
+agreements, state-level 
+climate regulations, and 
+politicized climate 
+science. 
+Responsibility is 
+attributed to human-
+induced emissions, 
+fossil-fuel dependence, 
+insufficient global 
+cooperation, and existing 
+social and developmental 
+vulnerabilities. 
+Moral evaluation 
+Climate policies are 
+evaluated as unfair, 
+costly, ideologically 
+driven, and harmful to 
+American workers, 
+businesses, and energy 
+security. 
+Climate action is 
+evaluated as a matter of 
+responsibility, solidarity, 
+justice, and protection of 
+vulnerable populations. 
+Treatment 
+recommendation 
+The proposed response is 
+withdrawal from 
+international climate 
+commitments, 
+deregulation, expansion 
+of fossil-fuel production, 
+and prioritization of 
+national economic and 
+energy interests. 
+The proposed response 
+is multilateral 
+cooperation, emissions 
+reduction, climate 
+finance, a just transition, 
+and the integration of 
+climate concerns into 
+security and 
+development policies. 
+Source: Author’s own table based on Entman’s (1993) four framing functions 
+and the official/institutionally attributable documents analyzed in this article. 
+As Table 2 shows, the divergence between the two actors is not limited to 
+policy preference; it concerns the meaning of security itself. The Trump 
+administration’s frame makes the economic costs of climate policy salient while 
+backgrounding long-term human security risks. The EU frame, by contrast, 
+foregrounds vulnerability, protection, justice, and collective responsibility. In 
+this sense, the U.S. confines climate change to an economic and sovereignty-
+based issue, whereas the EU places it within the human security axis and treats it 
+
+--- PAGE 21 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         21 
+as a moral and existential challenge. This finding is broadly consistent with the 
+existing literature, which emphasizes that the EU and the U.S. construct climate 
+change through divergent security and policy frames. However, this article 
+extends previous studies by showing that, under Trump’s second presidency, the 
+divergence becomes more pronounced as the U.S. frame explicitly rejects human 
+security considerations and prioritizes economic and energy interests, while the 
+EU continues to embed climate change within a broader framework of human 
+security, climate justice, and international cooperation. 
+When examining the problem definitions of climate change by the two actors, 
+a contrast emerges between an “economic conspiracy” and an “existential threat.” 
+In his lengthy speech at the UN General Assembly on 23 September 2025, Trump 
+harshly criticized climate change policies and strongly attacked major powers 
+such as the EU that actively pursue them. He adopted a framework that 
+completely rejects climate change as a security or human life threat. In Trump’s 
+discourse, climate change is reframed from being a security issue into a global 
+conspiracy against national development — or, in his own words, “the greatest 
+con job ever perpetrated on the world” (ABC News, 2025). The Trump 
+administration characterized climate policies merely as an “unfair economic 
+burden” imposed on the U.S. (Trump, 2025a). This framing shifts a scientifically 
+urgent security issue entirely into the realm of economics. 
+The EU, by contrast, defines climate change as a “very serious threat” 
+(European Commission, n.d.a). Since 2008 in particular, the EU has explicitly 
+framed climate change as a threat multiplier (European Commission and the High 
+Representative, 2008) — that is, as a phenomenon that exacerbates existing 
+tensions and instability. From the perspective of the U.S. under the Trump 
+administration, however, the EU’s vital climate measures represent a form of 
+self-inflicted economic harm by successful industrialized nations, radically 
+disrupting their own economies (ABC News, 2025). According to Trump, the 
+real issue lies in EU regulations such as the Corporate Sustainability Due 
+Diligence Directive (CSDDD) (European Commission, n.d.b), which require 
+companies to identify and address adverse human rights and environmental 
+impacts of their activities both within and outside Europe. In his view, such rules 
+not only harm EU markets but also impose significant economic and regulatory 
+burdens on American companies (Lefebvre and Colman, 2025). 
+According to framing theory, the two actors exhibit a significant divergence 
+in how they identify the cause and culprit of the problem. The Trump 
+administration attributes the reason for climate change measures to previous 
+administrations, state governments, and the scientific elite. Former 
+administrations (Obama and Biden) are accused of adopting measures that 
+
+--- PAGE 22 ---
+22                                                                       FRAMING CLIMATE CHANGE AS... 
+weakened national security, while science itself is dismissed as misleading and 
+politicized. For Trump, the perpetrators of the climate change “conspiracy” are 
+“hoaxes” fabricated by “people with evil intentions,” as well as “stupid people” 
+who previously made false predictions such as “global cooling” and “global 
+warming.” He also blames those who follow the “globalist concept,” such as the 
+EU, and EU regulatory bodies that impose “significant economic and regulatory 
+burdens” on American companies (ABC News, 2025). In contrast, the EU 
+attributes the cause of the problem to harmful human activities, dependence on 
+fossil fuels, and the lack of global cooperation. Therefore, one of the fundamental 
+differences in framing between the two actors lies in whether they view climate 
+change as a systemic and collective problem or as a deception created by external 
+actors. 
+The moral evaluation in the U.S. under the Trump administration depicted 
+climate policies as “producing economic injustice” and placing an “unfair 
+burden” on American workers, businesses, and taxpayers. According to Trump, 
+green energy agendas were “suicidal energy ideas” that had brought European 
+countries “to the brink of destruction,” meaning that “all green is all bankrupt” 
+(ABC News, 2025). In contrast, the EU views the fight against climate change 
+through the normative values of justice, solidarity, and responsibility. The EU 
+never regards climate action as a financial cost but as an opportunity for 
+innovation guided by the principle of “leaving no one behind” (European 
+Commission, n.d.c). This enables the EU to reproduce its image as a normative 
+power through climate security. By providing climate finance to developing 
+countries, the EU claims to assume the role of a global champion, thereby 
+reinforcing a framework centered on protecting all humanity under threat. 
+In the U.S. proposal for a solution, climate policies and the globalist concept 
+“must be completely and immediately rejected.” Trump had already annulled all 
+climate policies on the first day of his second presidential term, thereby 
+disregarding all measures related to human security. He demands not only that 
+the U.S. but all states abandon such policies. According to him, European 
+countries should stay away from this “green scam.” Through diplomatic pressure, 
+the U.S. seeks the total repeal of the EU’s green regulations, such as the CSDDD 
+(Milman, 2025). In contrast, the EU’s proposed solution is to conduct all of its 
+policies within the framework of climate change and to play an active role in 
+international cooperation. Moreover, the EU refuses to yield to U.S. pressure to 
+“tear up” its green rules. The Union will not retract or dilute any of its legislation 
+(Gavin and Gros, 2025). 
+This serves as a clear example of how these two actors approach an issue 
+solely from their preferred perspective and translate it into policy. The Trump 
+
+--- PAGE 23 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         23 
+administration’s strategic framing took the reality of climate change and 
+portrayed climate measures merely as harmful interventions that disrupt the 
+economy, redefining the climate issue not as a matter of national security but as 
+an obstacle to energy independence. In contrast, the EU framed climate change 
+in terms of human security, institutionalizing it as a normative concern and thus 
+transforming an environmental issue into a foundation of political legitimacy. 
+This profound divergence in framing constitutes a fundamental source of friction 
+in transatlantic relations concerning climate governance. 
+The fundamentally divergent framings of climate change by these two actors 
+have led to a profound weakening of global climate governance in the 
+international arena, thereby placing human security under greater threat. The 
+withdrawal of the world’s largest economy from the Paris Climate Agreement 
+weakened global climate governance. This effect was reinforced by the 
+cancellation of climate mitigation policies and the expansion of environmentally 
+harmful activities in climate-sensitive regions such as the Arctic. Moreover, this 
+action appears particularly detrimental as it may serve as a potential precedent 
+for other states to retreat from their own climate commitments. 
+Conclusion 
+This study has conducted a comparative analysis of how the U.S. and the EU 
+frame climate change within the context of human security, revealing that two 
+contrasting framings fundamentally shape their security perceptions and 
+approaches to global climate governance. Frame theory has been instrumental in 
+analyzing how these major actors highlight certain aspects of the same issue 
+while disregarding others, subsequently transforming these framings into policy. 
+The key factor determining whether climate change is perceived as a negligible 
+concern or as a comprehensive human security challenge requiring international 
+cooperation lies in how it is framed by the actors. 
+Under the Trump administration, the U.S. did not frame climate change as a 
+human security issue, as evidenced by policy documents and presidential 
+speeches. On the contrary, climate policies were framed as threats to national 
+security on the grounds that they allegedly harmed the economy and undermined 
+energy independence. Despite the overwhelming scientific consensus on the 
+climate crisis, the administration pursued a discourse that delegitimized science 
+by claiming that it had been politicized. It dismantled nearly all domestic and 
+international climate-related policies and resumed intensive fossil fuel extraction, 
+including in environmentally vulnerable areas. The EU, on the other hand, 
+perceives climate change as a threat to humanity and the planet as a whole, 
+thereby framing it explicitly within the human security paradigm. The EU 
+advocates that ensuring the planet’s sustainability requires inclusive and 
+
+--- PAGE 24 ---
+24                                                                       FRAMING CLIMATE CHANGE AS... 
+cooperative international policies that leave no one behind. In this regard, it is 
+evident that the EU’s policy framework consistently treats climate change as a 
+human security issue. 
+As has long been established, climate change is a global problem that cannot 
+be resolved without international cooperation, particularly among major powers 
+and highly polluting states. Although the EU exerts significant global efforts 
+through its climate policies, the absence of cooperation from the U.S., as a 
+superpower, exacerbates climate-related threats. The U.S.’s denial of climate 
+change and its economy-driven policies not only obstruct collective action but 
+also intensify global crises that endanger human security. Future studies may 
+further develop this analysis by including additional actors such as China and 
+Russia, by examining media and public opinion frames alongside official policy 
+documents, and by assessing how competing climate-security frames influence 
+concrete policy outcomes over time. 
+Ethics  
+It is hereby declared that scientific and ethical principles were adhered to in the 
+conduct and writing of this study, and that all sources used have been properly 
+cited. The author(s) did not use any generative AI tool for data analysis, coding, 
+interpretation, or the generation of research findings. The author reviewed and 
+approved all revisions and takes full responsibility for the manuscript's final 
+content. 
+Acknowledgments 
+I would like to thank Prof. Dr. Armağan Gözkaman for his valuable contributions 
+during the preparation of this study. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 25 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         25 
+References 
+ABC News. (2025, September 23). FULL SPEECH: Trump addresses United 
+Nations 
+General 
+Assembly 
+[Video]. 
+YouTube. 
+https://www.youtube.com/watch?v=RLoxCqc3Tro 
+Allan, J. I., and Hadden, J. (2017). Exploring the framing power of NGOs in 
+global 
+climate 
+politics. 
+Environmental 
+Politics, 
+26(4): 
+600–620. 
+https://doi.org/10.1080/09644016.2017.1319017 
+Bakker, C., and Francioni, F. (Eds.). (2016). The EU, the US and global climate 
+governance. Routledge. ISBN 9781315616315. 
+Barnett, M. (1999). Culture, strategy and foreign policy change: Israel’s road to 
+Oslo. European Journal of International Relations, 5(1), 5–36. 
+https://doi.org/10.1177/1354066199005001001 
+Barnett, J., and Adger, W. N. (2007). Climate change, human security and violent 
+conflict. 
+Political 
+Geography, 
+26(6), 
+639–655. 
+https://doi.org/10.1016/j.polgeo.2007.03.003  
+Baute, S. (2024). The distributive politics of the green transition: A conjoint 
+experiment on EU climate change mitigation policy. Journal of European 
+Public 
+Policy, 
+32(1): 
+52–80. 
+https://doi.org/10.1080/13501763.2024.2304609  
+BBC News Türkçe. (2018, November 27). Trump kendi hükümetinin küresel 
+ısınma 
+raporu 
+için 
+“İnanmıyorum” 
+dedi. 
+https://www.bbc.com/turkce/haberler-dunya-46353267 
+Bob, C. (2005). The marketing of rebellion: Insurgents, media, and international 
+activism. Cambridge University Press. https://ssrn.com/abstract=907725 
+Broadhead, L.-A. (2002). International environmental politics: The limits of 
+green diplomacy. Lynne Rienner Publishers, ISBN 1-58826-092-5. 
+Cacciatore, M. A., Scheufele, D. A., and Iyengar, S. (2016). The end of framing 
+as we know it … and the future of media effects. Mass Communication and 
+Society, 19(1): 7–23. 
+Carlarne, C. (2006). Climate change policies an ocean apart: EU and US climate 
+change policies compared. Penn State Environmental Law Review, 14. 
+Carlarne, C. P. (2010). Climate change law and policy: EU and US approaches. 
+Oxford University Press. ISBN 9780199553419.  
+
+--- PAGE 26 ---
+26                                                                       FRAMING CLIMATE CHANGE AS... 
+Chong, D., and Druckman, J. N. (2007). Framing theory. Annual Review of 
+Political 
+Science, 
+10: 
+103–126. 
+https://doi.org/10.1146/annurev.polisci.10.072805.103054  
+Dalby, S. (2013). Climate change as an issue of human security. In M. R. Redclift 
+and M. Grasso (Eds.), Handbook on climate change and human security (pp. 
+21–40). 
+Edward 
+Elgar 
+Publishing. 
+https://doi.org/10.4337/9780857939111.00009 
+Dupont, C., et al. (2023). Three decades of EU climate policy: Racing toward 
+climate neutrality? Wiley Interdisciplinary Reviews: Climate Change. 
+https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/wcc.863 
+EEAS. (2016). Shared vision, common action: A stronger Europe — A global 
+strategy for the European Union’s foreign and security policy. 
+EEAS. (2020, November 9). Climate change and defence roadmap. 
+https://data.consilium.europa.eu/doc/document/ST-12741-2020-INIT/en/pdf 
+Emran, S. (2024, November 11). Outlook on climate policy under President 
+Trump’s renewed mandate. Policy Center for the New South. 
+https://www.policycenter.ma/publications/outlook-climate-policy-under-
+president-trumps-renewed-mandate 
+Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. 
+Journal of Communication, 43(4): 51–58. https://doi.org/10.1111/j.1460-
+2466.1993.tb01304.x 
+Entman, R. M. (2009). Projections of power: Framing news, public opinion, and 
+U.S. 
+foreign 
+policy. 
+University 
+of 
+Chicago 
+Press. 
+https://doi.org/10.7208/chicago/9780226210735.001.0001  
+European Commission. (2001, December 21). Withdrawal of Commission 
+proposals 
+(COM(2001) 
+763 
+final). 
+https://eur-
+lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2001:0763:FIN:EN:PD
+F 
+European Commission. (2013, March 26). The 2015 international climate 
+change agreement — Shaping international climate policy beyond 2020 
+(COM(2013) 
+167 
+final). 
+https://eur-lex.europa.eu/legal-
+content/EN/TXT/PDF/?uri=CELEX:52013DC0167 
+European Commission. (2015, January 5). Climate change – What the EU is 
+doing [Video]. YouTube. https://www.youtube.com/watch?v=tfbi-oOA0bk 
+
+--- PAGE 27 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         27 
+European Commission. (2019, December 11). The European Green Deal 
+(COM(2019) 
+640 
+final). 
+https://eur-lex.europa.eu/resource.html?uri=cellar:b828d165-1c22-11ea-
+8c1f-01aa75ed71a1.0002.02/DOC_1&format=PDF 
+European Commission. (2021, July 14). Fit for 55 (COM(2021) 550 final). 
+https://eur-lex.europa.eu/legal-
+content/EN/TXT/PDF/?uri=CELEX:52021DC0550 
+European Commission. (2025, March 25). Commission notice – Guidance on the 
+Social 
+Climate 
+Plans 
+(C/2025/1597). 
+https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:C_2025/1597 
+European 
+Commission. 
+(n.d.a). 
+Consequences 
+of 
+climate 
+change. 
+https://climate.ec.europa.eu/climate-change/consequences-climate-
+change_en 
+European Commission. (n.d.b). Corporate sustainability due diligence. 
+https://commission.europa.eu/business-economy-euro/doing-business-
+eu/sustainability-due-diligence-responsible-business/corporate-
+sustainability-due-diligence_en 
+European 
+Commission. 
+(n.d.c). 
+EU 
+climate 
+action. 
+https://climate.ec.europa.eu/eu-action_en 
+European Commission and High Representative. (2008, March 14). Climate 
+change 
+and 
+international 
+security 
+(S113/08). 
+https://www.consilium.europa.eu/uedocs/cms_data/docs/pressdata/en/report
+s/99387.pdf 
+European Council. (2001, December 15). Presidency conclusions, Laeken. 
+https://www.consilium.europa.eu/uedocs/cms_data/docs/pressdata/en/ec/001
+00-r1.%20ann-r1.en1.html 
+Finnemore, M. (2015). Constructing norms of humanitarian intervention. In R. 
+K. Betts (Ed.), Conflict after the Cold War (pp. 272–289). Routledge. 
+https://doi.org/10.4324/9781315664484  
+Frumkin, H., Haines, A., and Rao, M. (2025). The US withdrawal from the Paris 
+climate agreement: Could it trump progress on climate change and health? 
+BMJ, 388: r185. http://doi.org/10.1136/bmj.r185  
+Gavin, G., and Gros, M. (10 October 2025). EU refuses to bow to Trump 
+demands to tear up business rules. Politico. 
+https://www.politico.eu/article/eu-trade-deal-donald-trump-tariffs-green-
+regulations/ 
+
+--- PAGE 28 ---
+28                                                                       FRAMING CLIMATE CHANGE AS... 
+Goddard, S. E. (2009). When right makes might: How Prussia overturned the 
+European balance of power. International Security, 33(3): 110–142. 
+https://doi.org/10.1162/isec.2009.33.3.110  
+Gözkaman, A. (2020). The Trump administration: An impossible thrust for 
+Turkey-EU relations. In H. Işıksal and O. Örmeci (Eds.), Historical 
+examinations and current issues in Turkish-American relations. Peter Lang. 
+Gözkaman, A. (2022). Avrupa Birliği - Amerika Birleşik Devletleri ilişkileri. In 
+T. Ö. Kaya and A. Sarıkamış Kaya (Eds.), Avrupa Birliği’nin küresel ilişkileri 
+(pp. 13–40). Necmettin Erbakan Üniversitesi Yayınları. 
+Gözkaman, A. (2024). Complementarity between the EU and NATO in light of 
+the war in Ukraine: An analysis from the perspective of collective 
+securitization theory. Southeast European and Black Sea Studies, 24(3): 469–
+495. https://doi.org/10.1080/14683857.2024.2358586 
+Gözkaman, A. (2025a). When values meet enlargement: Framing Ukraine’s 
+future in the European Union through the lens of the logic of appropriateness. 
+Global 
+Discourse: 
+1–15. 
+https://doi.org/10.1332/20437897Y2025D000000066 
+Gözkaman, A. (2025b). A reply to ‘Narratives as tools of sociological 
+imagination’ 
+… 
+Global 
+Discourse: 
+1–5. 
+https://doi.org/10.1332/20437897Y2025D000000082 
+Gregoratti, C. (2025, October 16). Human security. Encyclopaedia Britannica. 
+https://www.britannica.com/topic/human-security 
+Hallahan, K. (2008). Strategic framing. In W. Donsbach (Ed.), The international 
+encyclopedia 
+of 
+communication. 
+Wiley 
+Online 
+Library. 
+https://doi.org/10.1002/9781405186407.wbiecs107  
+Hayes, J., and Knox-Hayes, J. (2014). Security in climate change discourse: 
+Analyzing the divergence between US and EU approaches to policy. Global 
+Environmental 
+Politics, 
+14(2): 
+82–101. 
+https://doi.org/10.1162/GLEP_a_00230   
+Holden, E., and Lin, J. C. F. (2018, June 3). Trump’s climate science doubters. 
+Politico. 
+https://www.politico.com/interactives/2018/climate-science-
+doubters/  
+Richter, P. M., and Wanner, J. (2025). EU climate policy in a globalized world. 
+EconPol Policy Report, 53. 
+https://www.econstor.eu/bitstream/10419/325305/1/1933531991.pdf 
+
+--- PAGE 29 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         29 
+Intergovernmental Panel on Climate Change. (1992). First Assessment Report. 
+https://www.ipcc.ch/site/assets/uploads/2018/05/ipcc_90_92_assessments_f
+ar_full_report.pdf 
+Jacobs, J. W., and Khan, S. S. (2025). Erasing the evidence: United States climate 
+rollbacks and the implications for public health. PLOS Climate, 4(7). 
+https://doi.org/10.1371/journal.pclm.0000667 
+Jordan, A., et al. (2012). Understanding the paradoxes of multilevel governing: 
+Climate change policy in the European Union. Global Environmental 
+Politics, 12(2): 43–66. https://doi.org/10.1162/GLEP_a_00108  
+Jotzo, F., Depledge, J., and Winkler, H. (2018). US and international climate 
+policy 
+under 
+President 
+Trump. 
+Climate 
+Policy, 
+18(7). 
+https://doi.org/10.1080/14693062.2018.1490051  
+Kahneman, D., and Tversky, A. (1984). Choices, values, and frames. American 
+Psychologist, 39(4): 341–350. https://psycnet.apa.org/doi/10.1037/0003-
+066X.39.4.341 
+Lefebvre, B., and Colman, Z. (2025, October 22). Trump takes aim at European 
+climate law after killing UN shipping fee. Politico. 
+https://www.politico.com/news/2025/10/22/trump-administration-pushes-
+europe-to-change-corporate-climate-law-00618140 
+Martus, E. (2021). Policymaking and policy framing: Russian environmental 
+politics 
+under 
+Putin. 
+Europe-Asia 
+Studies, 
+73(5): 
+869–889. 
+https://doi.org/10.1080/09668136.2020.1865275 
+Mason, M. (2015). Climate change and human security: The international 
+governance architectures, policies and instruments. In M. R. Redclift and M. 
+Grasso (Eds.), Handbook on climate change and human security (pp. 382–
+401). Edward Elgar. https://eprints.lse.ac.uk/64751/1/Climate%20change.pdf 
+Milman, O. (2025, October 22). US demands EU roll back new climate rules to 
+allow rise in gas imports. The Guardian. https://www.theguardian.com/us-
+news/2025/oct/22/us-eu-climate-rules-lng-gas 
+O’Brien, K., St. Clair, A. L., and Kristoffersen, B. (2010). The framing of climate 
+change: Why it matters. In K. O’Brien, A. L. St. Clair, and B. Kristoffersen 
+(Eds.), Climate change, ethics and human security. Cambridge University 
+Press. 
+Paris, R. (2001). Human Security: Paradigm Shift or Hot Air? International 
+Security, 26(2), 87–102. https://users.metu.edu.tr/utuba/Paris.pdf  
+
+--- PAGE 30 ---
+30                                                                       FRAMING CLIMATE CHANGE AS... 
+Paris, R. (2005). Rational and Irrational Approaches to Human Security: A Reply 
+to Ralph Pettman. Cambridge Review of International Affairs, 18(3), 479–
+481. https://doi.org/10.1080/09557570500345236 
+Payne, R. A. (2001). Persuasion, frames and norm construction. European 
+Journal 
+of 
+International 
+Relations, 
+7(1): 
+37–61. 
+https://doi.org/10.1177/1354066101007001002  
+Pettman, R. (2005). Human Security as Global Security: Reconceptualising 
+Strategic Studies. Cambridge Review of International Affairs, 18(1), 137–
+150. https://doi.org/10.1080/09557570500059878 
+Rayner, T., and Jordan, A. (2016, August 5). Climate change policy in the 
+European Union. Oxford Research Encyclopedia of Climate Science. 
+https://oxfordre.com/climatescience/view/10.1093/acrefore/9780190228620.
+001.0001/acrefore-9780190228620-e-47  
+Rowe, E. W. (2013). Climate science, Russian politics, and the framing of 
+climate change. WIREs Climate Change: 457–465. Doi:10.1002/wcc.235. 
+Rushton, S. (2010). Framing AIDS: Securitization, development-ization, rights-
+ization. Global Health Governance, 4(1). 
+Saul, B., and McAdam, J. (2009). An insecure climate for human security? 
+Climate-induced displacement and international law. In A. Edwards and C. 
+Ferstman (Eds.), Human security and non-citizens. Cambridge University 
+Press. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1292605 
+Skovgaard, J. (2013). EU climate policy after the crisis. Environmental Politics, 
+23(1): 1–17. https://doi.org/10.1080/09644016.2013.818304  
+Sorkar, M. N. I. (2022). Power and issue framing in the contemporary world: 
+The case of climate negotiation. Springer. https://doi.org/10.1007/978-981-
+16-9740-1  
+Sperling, J., and Webber, M. (2017). NATO and the Ukraine crisis: Collective 
+securitization. European Journal of International Security, 2(1): 19–46. 
+https://doi.org/10.1017/eis.2016.17 
+Sperling, J., and Webber, M. (2019). The European Union: Security governance 
+and collective securitization. West European Politics, 42(2): 228–260.    
+https://doi.org/10.1080/01402382.2018.1510193 
+TGRT Haber. (2025, January, 16). ABD Başkanı Joe Biden veda konuşması 
+gerçekleştirdi 
+[Video]. 
+YouTube. 
+https://www.youtube.com/watch?v=j0JXgRU4S-0 
+
+--- PAGE 31 ---
+MARMARA JOURNAL OF EUROPEAN STUDIES                                                         31 
+The White House. (2021, January 27). President Biden’s historic climate agenda. 
+https://bidenwhitehouse.archives.gov/climate/ 
+Trump, D. J. (2025a, October 17). National Energy Dominance Month 2025 
+(Presidential 
+Proclamation). 
+The 
+White 
+House. 
+https://www.whitehouse.gov/presidential-actions/2025/10/national-energy-
+dominance-month-2025/ 
+Trump, D. J.  (2025b, January 30). Executive Order 14162: Putting America first 
+in 
+international 
+environmental 
+agreements. 
+Federal 
+Register. 
+https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02010.pdf 
+Trump, D. J. (2025c, January 28). Executive Order 14148: Initial rescissions of 
+harmful 
+executive 
+orders 
+and 
+actions. 
+Federal 
+Register. 
+https://www.govinfo.gov/content/pkg/FR-2025-01-28/pdf/2025-01901.pdf 
+Trump, D. J. (2025d, April 14). Executive Order 14260: Protecting American 
+energy 
+from 
+state 
+overreach. 
+Federal 
+Register. 
+https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06379.pdf 
+Trump, D. J. (2025e, May 29). Executive Order 1430: Restoring gold standard 
+science. 
+Federal 
+Register. 
+https://www.govinfo.gov/content/pkg/FR-2025-05-29/pdf/2025-09802.pdf 
+United Nations. (2021, December 9). Climate change ‘a multiplier effect’, 
+aggravating 
+instability, 
+conflict, 
+terrorism. 
+https://press.un.org/en/2021/sgsm21074.doc.htm 
+United Nations. (n.d.). Five ways the climate crisis impacts human security. 
+Climate 
+Action. 
+Retrieved 
+October 
+16, 
+2025, 
+https://www.un.org/en/climatechange/science/climate-issues/human-security 
+United Nations Development Programme. (1990). Human development report 
+1990. 
+Oxford 
+University 
+Press. 
+https://hdr.undp.org/system/files/documents/hdr1990encompletenostats.pdf 
+United Nations Development Programme. (1994). Human development report 
+1994. 
+Oxford 
+University 
+Press. 
+https://hdr.undp.org/system/files/documents/hdr1994encompletenostats.pdf 
+United Nations General Assembly. (2015, September 25). Transforming our 
+world: The 2030 Agenda for Sustainable Development (A/RES/70/1). 
+https://www.un.org/en/development/desa/population/migration/generalasse
+mbly/docs/globalcompact/A_RES_70_1_E.pdf 
+
+--- PAGE 32 ---
+32                                                                       FRAMING CLIMATE CHANGE AS... 
+United Nations Trust Fund for Human Security. (2016, January). Human security 
+handbook. 
+https://www.un.org/humansecurity/wp-content/uploads/2017/10/h2.pdf 
+United Nations Trust Fund for Human Security. (n.d.). Retrieved October 27, 
+2025 https://www.un.org/humansecurity/#  
+United States Department of State. (2019, November 4). On the U.S. withdrawal 
+from 
+the 
+Paris 
+Agreement. 
+https://2017-2021.state.gov/on-the-u-s-withdrawal-from-the-paris-
+agreement/ 
+Vultee, F. (2010). Securitization: A new approach to the framing of the ‘war on 
+terror’. 
+Journalism 
+Practice, 
+4(1): 
+33–47. 
+https://doi.org/10.1080/17512780903172049 
+Wendler, F. (2022). Framing climate change in the EU and US after the Paris 
+Agreement. Palgrave Macmillan. https://doi.org/10.1007/978-3-031-04059-7 
+Wong, E. (2016, November 18). Trump has called climate change a Chinese 
+hoax. Beijing says it is anything but. The New York Times. 
+https://www.nytimes.com/2016/11/19/world/asia/china-trump-climate-
+change.html 
+ 
