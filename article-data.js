@@ -16,7 +16,7 @@ window.ARTICLE_DATA = {
     authorEmail: "rabiauzun1305@gmail.com",
     journalEn: "Marmara Journal of European Studies • Volume 34 • No: 1 • 2026",
     journalTr: "Marmara Avrupa Araştırmaları Dergisi • Cilt 34 • Sayı: 1 • 2026",
-    pdfUrl: "https://dspace.marmara.edu.tr/" // Placeholder for original PDF
+    pdfUrl: "https://dergipark.org.tr/tr/download/article-file/5457662"
   },
   
   // ==========================================
