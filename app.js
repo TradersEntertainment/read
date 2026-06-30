@@ -646,7 +646,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return controls;
   }
 
-  // --- Change Page with 3D Book Page Flip Animation ---
+  // --- Change Page instantly with zero animations ---
   function changeEbookPage(newPageNum, direction) {
     const rawText = state.activeTab === "full-en" ? window.ARTICLE_FULL_TEXT.en : window.ARTICLE_FULL_TEXT.tr;
     const totalPages = rawText.split("--- PAGE ").length - 1;
@@ -660,103 +660,9 @@ document.addEventListener("DOMContentLoaded", () => {
     
     if (state.currentPage === targetPage) return;
     
-    const spreadContainer = document.getElementById("ebook-page-content");
-    if (!spreadContainer || !isDouble) {
-      // Fallback for single page mode (mobile)
-      state.currentPage = targetPage;
-      renderFullText();
-      return;
-    }
-    
-    const currentPageVal = state.currentPage;
-    state.currentPage = targetPage; // Update state Y-coordinate first
-    
-    const leftPage = spreadContainer.querySelector(".ebook-page-left");
-    const rightPage = spreadContainer.querySelector(".ebook-page-right");
-    
-    // Create the 3D flipping sheet overlay
-    const flippingPage = document.createElement("div");
-    flippingPage.className = `ebook-flipping-page ${direction === "next" ? "flip-next" : "flip-prev"}`;
-    
-    const faceFront = document.createElement("div");
-    faceFront.className = "ebook-flipping-face ebook-flipping-face-front";
-    
-    const faceBack = document.createElement("div");
-    faceBack.className = "ebook-flipping-face ebook-flipping-face-back";
-    
-    if (direction === "next") {
-      // Front of turning page: old right page content
-      const oldRightNum = currentPageVal + 1;
-      const oldRightObj = window.ARTICLE_FULL_TEXT_PAGES[oldRightNum];
-      renderPageContentElement(oldRightNum, oldRightObj, faceFront);
-      
-      // Back of turning page: new left page content
-      const newLeftNum = targetPage;
-      const newLeftObj = window.ARTICLE_FULL_TEXT_PAGES[newLeftNum];
-      renderPageContentElement(newLeftNum, newLeftObj, faceBack);
-      
-      // Static right page immediately reveals target right page underneath
-      const newRightNum = targetPage + 1;
-      const newRightObj = window.ARTICLE_FULL_TEXT_PAGES[newRightNum];
-      rightPage.innerHTML = "";
-      
-      const rightSep = document.createElement("div");
-      rightSep.className = "full-text-page-separator";
-      rightSep.textContent = state.language === "tr" ? `Sayfa ${newRightNum}` : `Page ${newRightNum}`;
-      rightPage.appendChild(rightSep);
-      
-      const rightContent = document.createElement("div");
-      renderPageContentElement(newRightNum, newRightObj, rightContent);
-      rightPage.appendChild(rightContent);
-      
-    } else {
-      // Front of turning page: old left page content
-      const oldLeftNum = currentPageVal;
-      const oldLeftObj = window.ARTICLE_FULL_TEXT_PAGES[oldLeftNum];
-      renderPageContentElement(oldLeftNum, oldLeftObj, faceFront);
-      
-      // Back of turning page: new right page content
-      const newRightNum = targetPage + 1;
-      const newRightObj = window.ARTICLE_FULL_TEXT_PAGES[newRightNum];
-      renderPageContentElement(newRightNum, newRightObj, faceBack);
-      
-      // Static left page immediately reveals target left page underneath
-      const newLeftNum = targetPage;
-      const newLeftObj = window.ARTICLE_FULL_TEXT_PAGES[newLeftNum];
-      leftPage.innerHTML = "";
-      
-      const leftSep = document.createElement("div");
-      leftSep.className = "full-text-page-separator";
-      leftSep.textContent = state.language === "tr" ? `Sayfa ${newLeftNum}` : `Page ${newLeftNum}`;
-      leftPage.appendChild(leftSep);
-      
-      const leftContent = document.createElement("div");
-      renderPageContentElement(newLeftNum, newLeftObj, leftContent);
-      leftPage.appendChild(leftContent);
-    }
-    
-    flippingPage.appendChild(faceFront);
-    flippingPage.appendChild(faceBack);
-    spreadContainer.appendChild(flippingPage);
-    
-    // Add page shadow overlay for 3D depth effect
-    const shadowOverlay = document.createElement("div");
-    shadowOverlay.className = "page-shadow-overlay";
-    shadowOverlay.style.left = direction === "next" ? "0" : "50%";
-    spreadContainer.appendChild(shadowOverlay);
-    
-    // Trigger transition reflow
-    flippingPage.offsetHeight;
-    
-    // Run the 3D Y-axis rotation!
-    flippingPage.classList.add("run-flip");
-    shadowOverlay.classList.add("active");
-    
-    // After transition ends (600ms), clean up and finalize the layout
-    setTimeout(() => {
-      renderFullText();
-      elements.readerPane.scrollTo({ top: 0, behavior: "instant" });
-    }, 600);
+    state.currentPage = targetPage;
+    renderFullText();
+    elements.readerPane.scrollTo({ top: 0, behavior: "instant" });
   }
 
   // --- Render Tables dynamically ---
