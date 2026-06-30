@@ -788,24 +788,8 @@ through which actors define problems, attribute causality, make moral
 evaluations, and propose policy solutions (Entman, 1993: 52). Table 2 
 summarizes how the U.S. under the Trump administration and the EU frame 
 climate change differently through Entman’s four framing functions. 
-Table 2. Comparative Framing of Climate Change in the U.S. and the EU 
-through Entman’s Four Functions 
-Framing Function 
-U.S. / Trump 
-Administration 
-European Union 
-Problem definition 
-Climate change itself is 
-not framed as a human 
-security threat. Instead, 
-climate policy is defined 
-as an economic burden, a 
-Climate change is 
-defined as a global and 
-human security threat 
-that endangers lives, 
-livelihoods, health, 
-                                                        
+[TABLE_COMPARISON_PLACEHOLDER]
+
 2At this juncture, it is pertinent to recall that Trump evinced a profound skepticism toward the 
 efficacy of multilateralism and an overt indifference to the institutional architectures 
 underpinning international cooperation, a disposition framed within the assertive rhetoric of 
@@ -821,65 +805,7 @@ Berlin, 2020, p. 333.
 --- PAGE 20 ---
 20                                                                       FRAMING CLIMATE CHANGE AS... 
 constraint on energy 
-independence, and a 
-threat to national 
-competitiveness and 
-energy security. 
-development, and 
-political stability. 
-Causal 
-interpretation 
-Responsibility is 
-attributed to previous 
-administrations, 
-international climate 
-agreements, state-level 
-climate regulations, and 
-politicized climate 
-science. 
-Responsibility is 
-attributed to human-
-induced emissions, 
-fossil-fuel dependence, 
-insufficient global 
-cooperation, and existing 
-social and developmental 
-vulnerabilities. 
-Moral evaluation 
-Climate policies are 
-evaluated as unfair, 
-costly, ideologically 
-driven, and harmful to 
-American workers, 
-businesses, and energy 
-security. 
-Climate action is 
-evaluated as a matter of 
-responsibility, solidarity, 
-justice, and protection of 
-vulnerable populations. 
-Treatment 
-recommendation 
-The proposed response is 
-withdrawal from 
-international climate 
-commitments, 
-deregulation, expansion 
-of fossil-fuel production, 
-and prioritization of 
-national economic and 
-energy interests. 
-The proposed response 
-is multilateral 
-cooperation, emissions 
-reduction, climate 
-finance, a just transition, 
-and the integration of 
-climate concerns into 
-security and 
-development policies. 
-Source: Author’s own table based on Entman’s (1993) four framing functions 
-and the official/institutionally attributable documents analyzed in this article. 
+
 As Table 2 shows, the divergence between the two actors is not limited to 
 policy preference; it concerns the meaning of security itself. The Trump 
 administration’s frame makes the economic costs of climate policy salient while 

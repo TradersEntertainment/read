@@ -559,9 +559,35 @@ document.addEventListener("DOMContentLoaded", () => {
         ? "[Tablo 1'in devamı - Sayfa 12'deki orijinal tablo ile birleştirilmiştir]"
         : "[Continuation of Table 1 - Consolidated with the main table on Page 12]";
       targetElement.appendChild(note);
-    } else if (pageNumStr === "20") {
+    } else if (pageObj && pageObj.text.includes("[TABLE_COMPARISON_PLACEHOLDER]")) {
+      const parts = pageObj.text.split("[TABLE_COMPARISON_PLACEHOLDER]");
+      
+      // Part 1: Narrative text before Table 2
+      const textBlock1 = document.createElement("div");
+      textBlock1.className = "full-text-content";
+      textBlock1.textContent = parts[0] ? parts[0].trim() : "";
+      targetElement.appendChild(textBlock1);
+      
+      // Table 2 (comparison)
       const tableWrapper = renderTableBlock("comparison", activeTabLang);
       targetElement.appendChild(tableWrapper);
+      
+      // Part 2: Footnote / Text after Table 2
+      if (parts[1] && parts[1].trim()) {
+        const textBlock2 = document.createElement("div");
+        textBlock2.className = "full-text-content";
+        textBlock2.style.marginTop = "24px";
+        textBlock2.style.paddingTop = "12px";
+        textBlock2.style.borderTop = "1px solid var(--color-border)";
+        textBlock2.style.fontSize = "0.85rem";
+        textBlock2.style.color = "var(--color-text-secondary)";
+        textBlock2.textContent = parts[1].trim();
+        targetElement.appendChild(textBlock2);
+      }
+    } else if (pageNumStr === "20") {
+      // Page 20 now contains clean narrative text following Table 2
+      targetElement.className = "full-text-content";
+      targetElement.textContent = pageObj ? pageObj.text : "";
     } else {
       targetElement.className = "full-text-content";
       targetElement.textContent = pageObj ? pageObj.text : "";

@@ -786,24 +786,8 @@ Aktörlerin sorunları tanımladığı, nedensellik atfettiği, ahlaki hale geti
 değerlendirmeler yapar ve politika çözümleri önerir (Entman, 1993: 52). Tablo 2 
 ABD'nin Trump yönetimi ve AB çerçevesi altında nasıl olduğunu özetliyor 
 Entman'ın dört çerçeveleme işlevi aracılığıyla iklim değişikliğini farklı şekilde ele alıyor. 
-Tablo 2. ABD ve AB'de İklim Değişikliğinin Karşılaştırmalı Çerçevesi 
-Entman'ın Dört İşlevi aracılığıyla 
-Çerçeveleme İşlevi 
-ABD / Trump 
-Yönetim 
-Avrupa Birliği 
-Sorun tanımı 
-İklim değişikliğinin kendisi 
-insan olarak çerçevelenmemiş 
-güvenlik tehdidi. Bunun yerine, 
-İklim politikası tanımlandı 
-ekonomik bir yük olarak 
-İklim değişikliği 
-küresel olarak tanımlanan ve 
-insan güvenliği tehdidi 
-Hayatlarını tehlikeye atan, 
-geçim kaynakları, sağlık, 
-                                                        
+[TABLE_COMPARISON_PLACEHOLDER]
+
 2Bu noktada Trump'ın ABD'ye karşı derin bir şüphecilik sergilediğini hatırlamakta yarar var. 
 çok taraflılığın etkinliği ve kurumsal mimarilere karşı açık bir kayıtsızlık 
 uluslararası işbirliğini destekleyen iddialı söylem çerçevesinde çerçevelenen bir eğilimdir. 
@@ -818,65 +802,7 @@ Berlin, 2020, s. 333.
 --- PAGE 20 ---
 20 İKLİM DEĞİŞİKLİĞİ ÇERÇEVESİ... 
 enerji kısıtlaması 
-bağımsızlık ve bir 
-ulusal tehdit 
-rekabet gücü ve 
-enerji güvenliği. 
-geliştirme ve 
-siyasi istikrar. 
-nedensel 
-yorumlama 
-Sorumluluk 
-öncekine atfedilen 
-yönetimler, 
-uluslararası iklim 
-anlaşmalar, eyalet düzeyinde 
-İklim düzenlemeleri ve 
-siyasallaşmış iklim 
-bilim. 
-Sorumluluk 
-insana atfedilen
-kaynaklı emisyonlar, 
-fosil yakıt bağımlılığı, 
-yetersiz küresel 
-işbirliği ve mevcut 
-sosyal ve gelişimsel 
-güvenlik açıkları. 
-Ahlaki değerlendirme 
-İklim politikaları 
-haksız olarak değerlendirilmesi, 
-pahalı, ideolojik olarak 
-tahrikli ve zararlı 
-Amerikalı işçiler, 
-işletmeler ve enerji 
-güvenlik. 
-İklim eylemi 
-meselesi olarak değerlendiriliyor 
-sorumluluk, dayanışma, 
-adalet ve koruma 
-savunmasız popülasyonlar. 
-Tedavi 
-tavsiye 
-Önerilen yanıt: 
-çekilme 
-uluslararası iklim 
-taahhütler, 
-kuralsızlaştırma, genişleme 
-fosil yakıt üretimi, 
-ve önceliklendirilmesi 
-ulusal ekonomik ve 
-enerji çıkarları. 
-Önerilen yanıt 
-çok taraflı 
-işbirliği, emisyonlar 
-azaltma, iklim 
-finans, adil bir geçiş, 
-ve entegrasyonu 
-İklim kaygıları 
-güvenlik ve 
-kalkınma politikaları. 
-Kaynak: Yazarın Entman'ın (1993) dört çerçeveleme işlevine dayanan kendi tablosu 
-ve bu makalede analiz edilen resmi/kurumsal olarak atfedilebilir belgeler. 
+
 Tablo 2'de görüldüğü gibi iki aktör arasındaki farklılık sadece bunlarla sınırlı değil. 
 politika tercihi; güvenliğin anlamı ile ilgilidir. Trump 
 Yönetimin çerçevesi iklim politikasının ekonomik maliyetlerini belirgin hale getirirken, 
