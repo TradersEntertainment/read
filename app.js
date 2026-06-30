@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const state = {
     language: "tr", // Default is Turkish as requested
     mode: "cognitive", // Default is Cognitive Layer
-    theme: "light", // Default is Light Theme
+    theme: "dark", // Default is Dark Theme as requested
     depth: "full", // Default is Full Word-for-Word
     activeSection: "abstract",
     activeTab: "interactive"
