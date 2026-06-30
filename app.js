@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     language: "tr", // Default is Turkish as requested
     mode: "cognitive", // Default is Cognitive Layer
     theme: "light", // Default is Light Theme
+    depth: "full", // Default is Full Word-for-Word
     activeSection: "abstract"
   };
 
@@ -44,7 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
     sunIcon: document.querySelector(".sun-icon"),
     moonIcon: document.querySelector(".moon-icon"),
     modeButtons: document.querySelectorAll(".mode-selector .btn-control"),
-    langButtons: document.querySelectorAll(".lang-selector .btn-control")
+    langButtons: document.querySelectorAll(".lang-selector .btn-control"),
+    depthButtons: document.querySelectorAll(".depth-selector .btn-control")
   };
 
   // --- Static UI Translations ---
@@ -179,6 +181,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Handle scroll events in reader pane to close active tooltip
     elements.readerPane.addEventListener("scroll", closeTooltip);
+
+    // Text depth selector buttons
+    elements.depthButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const depth = btn.getAttribute("data-depth");
+        if (state.depth !== depth) {
+          state.depth = depth;
+          elements.depthButtons.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          
+          renderSidebarTOC();
+          renderContent();
+          calculateStats();
+          closeTooltip();
+        }
+      });
+    });
   }
 
   // --- Update Light/Dark Theme ---
@@ -232,7 +251,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const lang = state.language;
     elements.tocList.innerHTML = "";
 
-    window.ARTICLE_DATA.sections.forEach(section => {
+    const activeSections = window.ARTICLE_DATA[state.depth === "full" ? "sections" : "sectionsSimplified"];
+    activeSections.forEach(section => {
       const li = document.createElement("li");
       li.className = `toc-item ${state.activeSection === section.id ? "active" : ""}`;
       li.setAttribute("data-section-id", section.id);
@@ -266,7 +286,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const lang = state.language;
     elements.articleBody.innerHTML = "";
 
-    window.ARTICLE_DATA.sections.forEach(section => {
+    const activeSections = window.ARTICLE_DATA[state.depth === "full" ? "sections" : "sectionsSimplified"];
+    activeSections.forEach(section => {
       const secEl = document.createElement("section");
       secEl.id = `section-${section.id}`;
       secEl.className = "article-section";
@@ -541,7 +562,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let totalWords = 0;
     let hiddenBlocksCount = 0;
 
-    window.ARTICLE_DATA.sections.forEach(section => {
+    const activeSections = window.ARTICLE_DATA[state.depth === "full" ? "sections" : "sectionsSimplified"];
+    activeSections.forEach(section => {
       section.blocks.forEach(block => {
         if (block.type === "core" || block.type === "background") {
           const text = lang === "tr" ? block.textTr : block.textEn;
