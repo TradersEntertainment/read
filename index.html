@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Layer Reader - Rabia Uzun</title>
+  <!-- Google Fonts: Inter for UI, Playfair Display for Serif academic reading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="mode-cognitive theme-light">
+  
+  <div class="app-container">
+    
+    <!-- Left Sidebar: Metadata, TOC, Stats, PDF Link -->
+    <aside class="app-sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="app-logo">
+          <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+          <span class="app-name">Antigravity Reader</span>
+        </div>
+        <p class="app-tagline" data-en="Academic Optimizer" data-tr="Akademik Optimizasyon"></p>
+      </div>
+
+      <div class="sidebar-scroll-area">
+        <!-- Article Info Panel -->
+        <div class="sidebar-card article-meta-card">
+          <div class="meta-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20M4 19.5L4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5z"/>
+            </svg>
+          </div>
+          <h2 class="sidebar-title" data-en="Active Article" data-tr="Aktif Makale"></h2>
+          <h3 class="article-title" id="sidebar-article-title"></h3>
+          <p class="article-author" id="sidebar-article-author"></p>
+        </div>
+
+        <!-- Table of Contents -->
+        <nav class="sidebar-nav">
+          <h2 class="sidebar-title" data-en="Table of Contents" data-tr="Metin Haritası"></h2>
+          <ul class="toc-list" id="toc-list">
+            <!-- Populated dynamically -->
+          </ul>
+        </nav>
+
+        <!-- Cognitive Load Stats Dashboard -->
+        <div class="sidebar-card stats-card">
+          <h2 class="sidebar-title" data-en="Cognitive Dashboard" data-tr="Bilişsel Gösterge Paneli"></h2>
+          
+          <div class="stat-row">
+            <span class="stat-label" data-en="Cognitive Load Reduction" data-tr="Bilişsel Yük Azaltma"></span>
+            <span class="stat-value" id="stat-reduction">0%</span>
+          </div>
+          <div class="stat-progress-bar">
+            <div class="stat-progress-fill" id="stat-reduction-fill" style="width: 0%"></div>
+          </div>
+
+          <div class="stat-grid">
+            <div class="grid-item">
+              <div class="grid-val" id="stat-hidden-blocks">0</div>
+              <div class="grid-lbl" data-en="Definitions Hidden" data-tr="Gizlenen Tanım"></div>
+            </div>
+            <div class="grid-item">
+              <div class="grid-val" id="stat-time-saved">~0m</div>
+              <div class="grid-lbl" data-en="Est. Time Saved" data-tr="Kazanılan Süre"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Footer: PDF Download & App Data Info -->
+      <div class="sidebar-footer">
+        <a href="#" class="btn-pdf" id="btn-original-pdf">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10 9 9 9 8 9"/>
+          </svg>
+          <span data-en="Full Original PDF" data-tr="Orijinal PDF Sürümü"></span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+      
+      <!-- Top Sticky Controls Bar -->
+      <header class="app-header">
+        <button class="btn-sidebar-toggle" id="sidebar-toggle" aria-label="Toggle Sidebar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+        
+        <div class="header-controls">
+          <!-- Reading Mode Selectors -->
+          <div class="control-group mode-selector">
+            <span class="control-label" data-en="Reading Mode" data-tr="Okuma Modu"></span>
+            <div class="segmented-control">
+              <button class="btn-control active" data-mode="cognitive" title="Extracts background information into interactive popups">
+                <span data-en="Cognitive" data-tr="Katmanlı"></span>
+              </button>
+              <button class="btn-control" data-mode="highlight" title="Highlights background information directly in the text">
+                <span data-en="Highlight" data-tr="Vurgulu"></span>
+              </button>
+              <button class="btn-control" data-mode="classic" title="Displays raw original academic paper layout">
+                <span data-en="Classic" data-tr="Klasik"></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Language Switches -->
+          <div class="control-group lang-selector">
+            <span class="control-label" data-en="Language" data-tr="Dil"></span>
+            <div class="segmented-control">
+              <button class="btn-control" data-lang="en">EN</button>
+              <button class="btn-control active" data-lang="tr">TR</button>
+            </div>
+          </div>
+
+          <!-- Light/Dark Mode Switcher -->
+          <button class="btn-icon" id="theme-toggle" aria-label="Toggle Theme">
+            <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"/>
+              <line x1="12" y1="1" x2="12" y2="3"/>
+              <line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1" y1="12" x2="3" y2="12"/>
+              <line x1="21" y1="12" x2="23" y2="12"/>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+            <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Reading Article Container -->
+      <article class="reader-container" id="reader-pane">
+        
+        <!-- Interactive Article Title -->
+        <header class="reader-header">
+          <p class="reader-journal" id="article-journal"></p>
+          <h1 class="reader-title" id="article-title"></h1>
+          
+          <div class="reader-meta">
+            <div class="author-info">
+              <span class="author-name" id="article-author"></span>
+              <span class="author-affiliation" id="article-affiliation"></span>
+            </div>
+            <div class="author-contact">
+              <a href="" id="article-email"></a>
+            </div>
+          </div>
+        </header>
+
+        <!-- Dynamic Reading Sections -->
+        <div class="reader-body" id="article-body">
+          <!-- Populated dynamically by app.js -->
+        </div>
+
+      </article>
+      
+    </main>
+
+  </div>
+
+  <!-- Dynamic Hover/Click Floating Tooltip Card -->
+  <div class="popup-tooltip" id="popup-tooltip">
+    <div class="popup-arrow"></div>
+    <div class="popup-header">
+      <span class="popup-title" data-en="Layer Info (Background)" data-tr="Katman Bilgisi (Arka Plan)"></span>
+      <button class="popup-close" id="popup-close-btn">&times;</button>
+    </div>
+    <div class="popup-body" id="popup-body-content"></div>
+  </div>
+
+  <!-- Script Loaders -->
+  <script src="article-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
