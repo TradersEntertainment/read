@@ -1014,6 +1014,59 @@ body.theme-dark .popup-arrow {
   font-family: var(--font-ui);
 }
 
+/* E-book Two-Page Spread Layout */
+.ebook-spread {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ebook-page {
+  flex: 1;
+  min-width: 0; /* Prevent flex blowout */
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 35px 40px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+/* Gutter shadow in the middle of pages to simulate a book spine */
+.ebook-page-left::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.05));
+  pointer-events: none;
+  border-top-right-radius: var(--radius-lg);
+  border-bottom-right-radius: var(--radius-lg);
+}
+
+.ebook-page-right::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.05));
+  pointer-events: none;
+  border-top-left-radius: var(--radius-lg);
+  border-bottom-left-radius: var(--radius-lg);
+}
+
+/* Empty page layout styling */
+.ebook-page-empty {
+  background-color: var(--color-bg-primary);
+  border: 1px dashed var(--color-border);
+  box-shadow: none;
+}
+
 /* Animations for Page Transitions */
 .page-container {
   transition: opacity 0.2s ease, transform 0.2s ease;
@@ -1021,19 +1074,27 @@ body.theme-dark .popup-arrow {
   opacity: 1;
 }
 
-.page-container.anim-out-next {
+.ebook-spread.anim-out-next .ebook-page-left {
   transform: translateX(-40px);
   opacity: 0;
 }
+.ebook-spread.anim-out-next .ebook-page-right {
+  transform: translateX(-20px);
+  opacity: 0;
+}
 
-.page-container.anim-out-prev {
+.ebook-spread.anim-out-prev .ebook-page-left {
+  transform: translateX(20px);
+  opacity: 0;
+}
+.ebook-spread.anim-out-prev .ebook-page-right {
   transform: translateX(40px);
   opacity: 0;
 }
 
 @keyframes slideInPage {
   from {
-    transform: translateX(40px);
+    transform: translateX(30px);
     opacity: 0;
   }
   to {
@@ -1044,12 +1105,25 @@ body.theme-dark .popup-arrow {
 
 @keyframes slideInPagePrev {
   from {
-    transform: translateX(-40px);
+    transform: translateX(-30px);
     opacity: 0;
   }
   to {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+
+/* Mobile responsive fallback: single page column and hide the right page */
+@media (max-width: 1000px) {
+  .ebook-page-right {
+    display: none !important; /* Hide the second page on mobile/tablets */
+  }
+  .ebook-page-left::after {
+    display: none; /* Hide page spine shadow on single page view */
+  }
+  .ebook-page {
+    padding: 24px 20px;
   }
 }
 
