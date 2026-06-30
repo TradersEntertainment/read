@@ -572,85 +572,13 @@ window.ARTICLE_DATA = {
         }
       ]
     },
-    {
-      id: "theory",
-      titleEn: "2. Theoretical Framework (Simplified)",
-      titleTr: "2. Kuramsal Çerçeve (Sadeleştirilmiş)",
-      blocks: [
-        {
-          id: "theory-sbg-1",
-          type: "background",
-          textEn: "Framing is a strategic cognitive and rhetorical tool that directs the audience's attention toward a specific perspective. It shapes the construction of social reality, public opinion, and political narratives (Hallahan, 2008; Gözkaman, 2025). By emphasizing certain aspects of reality while obscuring others, it establishes the boundaries of interpretation (Kahneman & Tversky, 1984; Gözkaman, 2025a/b). In public discourse, it can also be evaluated as a form of elite manipulation (Chong & Druckman, 2007; Cacciatore et al., 2016).",
-          textTr: "Çerçeveleme (framing), hedef kitlenin dikkatini belirli bir perspektife yönlendiren stratejik bir bilişsel ve retorik araçtır. Sosyal gerçekliğin inşasını, kamuoyunu ve politik anlatıları şekillendirir (Hallahan, 2008; Gözkaman, 2025). Gerçekliğin belirli yönlerini vurgularken diğerlerini gizleyerek yorumlama sınırlarını çizer (Kahneman ve Tversky, 1984; Gözkaman, 2025a/b). Kamuoyunda çerçeveleme, elitlerin kitleleri manipüle etme stratejisi olarak da değerlendirilebilir (Chong ve Druckman, 2007; Cacciatore ve diğerleri, 2016)."
-        },
-        {
-          id: "theory-sbg-2",
-          type: "background",
-          textEn: "Robert Entman (1993) defines four core functions that build a frame: 1) Defining problems (what is the issue and its stakes), 2) Diagnosing causes (who or what is responsible), 3) Making moral evaluations (judging the actions), and 4) Suggesting remedies (proposing and justifying policies). Frame theory is a fundamental tool in International Relations to analyze foreign policy changes, power dynamics, and environmental politics (Barnett, 1999; Payne, 2001; Gözkaman, 2024).",
-          textTr: "Robert Entman (1993), bir çerçeveyi oluşturan dört temel işlev tanımlar: 1) Sorunu tanımlama (meselenin ne olduğu ve ne getireceği), 2) Nedenleri teşhis etme (kimin veya neyin sorumlu olduğu), 3) Ahlaki değerlendirmeler yapma (eylemleri yargılama) ve 4) Tedavi önerisinde bulunma (politikalar önerme ve bunları meşrulaştırma). Çerçeveleme teorisi, uluslararası ilişkilerde dış politika değişikliklerini, güç dinamiklerini ve çevre politikalarını analiz etmek için temel bir araçtır (Barnett, 1999; Payne, 2001; Gözkaman, 2024)."
-        },
-        {
-          id: "theory-core-1",
-          type: "core",
-          textEn: "This study employs <span class=\"info-trigger\" data-target=\"theory-sbg-1\">frame theory</span> to analyze how the U.S. and the EU constructed their discourses on climate change under the two Trump administrations. Specifically, the analysis utilizes <span class=\"info-trigger\" data-target=\"theory-sbg-2\">Entman’s framing functions</span> to reveal how the Trump administration portrayed environmental regulations as economic obstacles while the EU linked climate action to human security and collective responsibility.",
-          textTr: "Bu çalışma, iki Trump dönemi altında ABD ve AB'nin iklim değişikliği söylemlerini nasıl inşa ettiklerini analiz etmek için <span class=\"info-trigger\" data-target=\"theory-sbg-1\">çerçeveleme teorisini</span> kullanmaktadır. Analiz, özellikle Trump yönetiminin çevresel düzenlemeleri ekonomik engeller olarak nasıl sunduğunu, AB'nin ise iklim eylemini insan güvenliği ve kolektif sorumlulukla nasıl ilişkilendirdiğini ortaya koymak için <span class=\"info-trigger\" data-target=\"theory-sbg-2\">Entman'ın çerçeveleme işlevlerini</span> kullanmaktadır."
-        }
-      ]
-    },
-    {
-      id: "literature",
-      titleEn: "3. Literature Review (Simplified)",
-      titleTr: "3. Literatür Taraması (Sadeleştirilmiş)",
-      blocks: [
-        {
-          id: "lit-sbg-1",
-          type: "background",
-          textEn: "Existing literature extensively documents the impacts of climate change on human well-being (Mason, 2015; Dalby, 2013; Barnett & Adger, 2007). Studies show the EU frames climate change as a global threat to human security, embedding it in security agendas (Dupont, 2023; Skovgaard, 2013; Baute, 2024), whereas the U.S., especially under Trump, treats it through a political and economic lens, often excluding 'climate change' terms from scientific frameworks (Jacobs & Khan, 2025; Frumkin et al., 2025).",
-          textTr: "Mevcut literatür, iklim değişikliğinin insan refahı üzerindeki etkilerini kapsamlı şekilde belgelemektedir (Mason, 2015; Dalby, 2013; Barnett ve Adger, 2007). Çalışmalar, AB'nin iklim değişikliğini insan güvenliğine yönelik küresel bir tehdit olarak çerçevelediğini gösterirken (Dupont, 2023; Skovgaard, 2013; Baute, 2024), ABD'nin (özellikle Trump döneminde) konuyu ekonomik ve siyasi bir mercekle ele aldığını ve hatta bazı bilimsel araştırma çerçevelerinden 'iklim değişikliği' ifadelerini çıkardığını göstermektedir (Jacobs ve Khan, 2025; Frumkin ve diğerleri, 2025)."
-        },
-        {
-          id: "lit-sbg-2",
-          type: "background",
-          textEn: "Previous comparative studies (Hayes & Knox-Hayes, 2014; Carlarne, 2006, 2010; Bakker & Francioni, 2016; Wendler, 2022) analyzed EU-U.S. climate policy differences. However, they were conducted before Trump's return to the presidency. For instance, Wendler (2022) suggested that the suspension of energy imports from Russia after the Ukraine war might push the U.S. toward sustainable energy. Trump's second term provides a new trajectory to study.",
-          textTr: "Önceki karşılaştırmalı çalışmalar (Hayes ve Knox-Hayes, 2014; Carlarne, 2006, 2010; Bakker ve Francioni, 2016; Wendler, 2022), AB-ABD iklim politikası farklılıklarını analiz etmiştir. Ancak bu çalışmalar Trump'ın ikinci başkanlığından önce yapılmıştır. Örneğin Wendler (2022), Ukrayna savaşı sonrası Rusya'dan enerji ithalatının durdurulmasının ABD'yi sürdürülebilir enerji kaynaklarına yönlendirebileceğini öngörmüştü. Trump'ın ikinci dönemi, incelenmesi gereken yeni bir rota sunmaktadır."
-        },
-        {
-          id: "lit-core-1",
-          type: "core",
-          textEn: "While existing <span class=\"info-trigger\" data-target=\"lit-sbg-1\">literature on climate change framing</span> shows a fundamental opposition between the EU's securitized approach and the U.S.'s economic approach, comparative analyses remain limited. This article builds on <span class=\"info-trigger\" data-target=\"lit-sbg-2\">previous comparative studies</span> by extending the comparison to the context of Trump’s second presidency.",
-          textTr: "İklim değişikliği çerçevelemesi üzerine mevcut <span class=\"info-trigger\" data-target=\"lit-sbg-1\">literatür</span>, AB'nin güvenlik eksenli yaklaşımı ile ABD'nin ekonomik yaklaşımı arasında temel bir zıtlık olduğunu gösterse de, karşılaştırmalı analizler sınırlı kalmıştır. Bu çalışma, karşılaştırmayı Trump’ın ikinci başkanlık dönemi bağlamına taşıyarak <span class=\"info-trigger\" data-target=\"lit-sbg-2\">önceki karşılaştırmalı çalışmalara</span> dayanmaktadır."
-        }
-      ]
-    },
-    {
-      id: "human-security",
-      titleEn: "4. The Concept of Human Security (Simplified)",
-      titleTr: "4. İnsan Güvenliği Kavramı (Sadeleştirilmiş)",
-      blocks: [
-        {
-          id: "hs-sbg-1",
-          type: "background",
-          textEn: "Human security represents a shift from traditional state-centric security to individual security, aiming to protect people from both conventional and non-conventional threats (Gregoratti, 2025). It was officially defined in the 1994 UNDP Human Development Report, which outlined seven dimensions: economic, food, health, environmental, personal, community, and political security (UNDP, 1990, 1994). Academics like Roland Paris (2001, 2005) criticized it as 'expansive and vague' or an 'empty container,' while Pettman (2005) argued that narrowing it obscures communal and cultural vulnerabilities.",
-          textTr: "İnsan güvenliği, geleneksel devlet merkezli güvenlikten bireysel güvenliğe geçişi temsil eder ve insanları hem geleneksel hem de geleneksel olmayan tehditlerden korumayı amaçlar (Gregoratti, 2025). Kavram, resmi olarak 1994 UNDP İnsani Gelişme Raporu'nda yedi boyutla tanımlanmıştır: ekonomik, gıda, sağlık, çevre, kişisel, toplumsal ve siyasi güvenlik (UNDP, 1990, 1994). Roland Paris (2001, 2005) gibi akademisyenler bu tanımı 'geniş ve belirsiz' veya 'boş bir kap' olarak eleştirirken, Pettman (2005) kavramı daraltmanın toplumsal ve kültürel kırılganlıkları göz ardı edeceğini savunmuştur."
-        },
-        {
-          id: "hs-sbg-2",
-          type: "background",
-          textEn: "The Intergovernmental Panel on Climate Change (IPCC) first identified climate threats to humanity in 1990. Over time, this connection grew. In 2021, UN Secretary-General António Guterres described climate change as a 'threat multiplier' exacerbating instability and conflict. The UN Climate Action identifies five key climate impacts on human security: 1) Land/water competition, 2) Reduced food production, 3) Forced migration, 4) Increased poverty, and 5) Security risks for women. This is reinforced by the UN's 2030 Agenda and the 2016 Human Security Handbook.",
-          textTr: "Hükümetlerarası İklim Değişikliği Paneli (IPCC) ilk kez 1990 yılında iklim tehditlerini tanımlamıştır. 2021 yılında BM Genel Sekreteri António Guterres, iklim değişikliğini istikrarsızlık ve çatışmaları tetikleyen bir 'tehdit çarpanı' olarak nitelendirmiştir. BM İklim Eylemi, iklim değişikliğinin insan güvenliği üzerindeki beş temel etkisini belirler: 1) Toprak ve su rekabeti, 2) Gıda üretiminin azalması, 3) Zorunlu göç, 4) Yoksulluğun artması, 5) Kadınlar üzerindeki güvenlik riskleri. Bu bağlantı, BM'nin 2030 Gündemi ve 2016 İnsan Güvenliği El Kitabı ile de pekiştirilmiştir."
-        },
-        {
-          id: "hs-core-1",
-          type: "core",
-          textEn: "The concept of <span class=\"info-trigger\" data-target=\"hs-sbg-1\">human security</span> has evolved to address how environmental degradation threatens individuals. Today, the link between climate change and human security is widely recognized, with <span class=\"info-trigger\" data-target=\"hs-sbg-2\">multilateral organizations outlining specific pathways</span> of vulnerability, such as resource competition, food scarcity, and displacement.",
-          textTr: "<span class=\"info-trigger\" data-target=\"hs-sbg-1\">İnsan güvenliği</span> kavramı, çevresel bozulmanın bireyleri nasıl tehdit ettiğini ele alacak şekilde evrilmiştir. Bugün, iklim değişikliği ile insan güvenliği arasındaki bağlantı geniş çapta kabul görmekte ve <span class=\"info-trigger\" data-target=\"hs-sbg-2\">çok taraflı kuruluşlar kırılganlığın belirli yollarını tanımlamaktadır</span> (kaynak rekabeti, gıda kıtlığı, göç vb.)."
-        }
-      ]
-    },
+
+
+
     {
       id: "us-frames",
-      titleEn: "5. U.S. Climate Change Frames under Trump (Simplified)",
-      titleTr: "5. Trump Yönetiminde ABD'nin İklim Çerçeveleri (Sadeleştirilmiş)",
+      titleEn: "2. U.S. Climate Change Frames under Trump (Simplified)",
+      titleTr: "2. Trump Yönetiminde ABD'nin İklim Çerçeveleri (Sadeleştirilmiş)",
       blocks: [
         {
           id: "us-sbg-1",
@@ -697,8 +625,8 @@ window.ARTICLE_DATA = {
     },
     {
       id: "eu-frames",
-      titleEn: "6. The European Union’s Climate Change Frames (Simplified)",
-      titleTr: "6. Avrupa Birliği'nin İklim Çerçeveleri (Sadeleştirilmiş)",
+      titleEn: "3. The European Union’s Climate Change Frames (Simplified)",
+      titleTr: "3. Avrupa Birliği'nin İklim Çerçeveleri (Sadeleştirilmiş)",
       blocks: [
         {
           id: "eu-sbg-1",
@@ -728,8 +656,8 @@ window.ARTICLE_DATA = {
     },
     {
       id: "comparative",
-      titleEn: "7. Comparative Analysis (Simplified)",
-      titleTr: "7. Karşılaştırmalı Analiz (Sadeleştirilmiş)",
+      titleEn: "4. Comparative Analysis (Simplified)",
+      titleTr: "4. Karşılaştırmalı Analiz (Sadeleştirilmiş)",
       blocks: [
         {
           id: "comp-sbg-1",
@@ -758,8 +686,8 @@ window.ARTICLE_DATA = {
     },
     {
       id: "conclusion",
-      titleEn: "8. Conclusion (Simplified)",
-      titleTr: "8. Sonuç (Sadeleştirilmiş)",
+      titleEn: "5. Conclusion (Simplified)",
+      titleTr: "5. Sonuç (Sadeleştirilmiş)",
       blocks: [
         {
           id: "conc-s1",
