@@ -952,6 +952,108 @@ body.theme-dark .popup-arrow {
   border-bottom: 1px dashed var(--color-border);
 }
 
+/* eBook Navigation Controls */
+.ebook-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  padding: 10px 16px;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  max-width: 450px;
+  box-shadow: var(--shadow-sm);
+  font-family: var(--font-ui);
+}
+
+.ebook-btn {
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-border);
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-smooth);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+
+.ebook-btn:hover:not(:disabled) {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.ebook-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.ebook-progress {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ebook-page-input {
+  width: 40px;
+  padding: 4px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xs);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  text-align: center;
+  font-weight: 700;
+  font-family: var(--font-ui);
+}
+
+/* Animations for Page Transitions */
+.page-container {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.page-container.anim-out-next {
+  transform: translateX(-40px);
+  opacity: 0;
+}
+
+.page-container.anim-out-prev {
+  transform: translateX(40px);
+  opacity: 0;
+}
+
+@keyframes slideInPage {
+  from {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInPagePrev {
+  from {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
 /* --- Responsive Layout (Mobile / Tablet) --- */
 @media (max-width: 900px) {
   --sidebar-width: 280px;

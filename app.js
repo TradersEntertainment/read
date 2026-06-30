@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     theme: "dark", // Default is Dark Theme as requested
     depth: "full", // Default is Full Word-for-Word
     activeSection: "abstract",
-    activeTab: "interactive"
+    activeTab: "interactive",
+    currentPage: 1
   };
 
   // --- DOM Elements ---
@@ -244,6 +245,53 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     });
+
+    // Keyboard eBook page turning
+    document.addEventListener("keydown", (e) => {
+      if (state.activeTab !== "interactive") {
+        const rawText = state.activeTab === "full-en" ? window.ARTICLE_FULL_TEXT.en : window.ARTICLE_FULL_TEXT.tr;
+        const totalPages = rawText.split("--- PAGE ").length - 1;
+        
+        if (e.key === "ArrowRight" && state.currentPage < totalPages) {
+          changeEbookPage(state.currentPage + 1, "next");
+        } else if (e.key === "ArrowLeft" && state.currentPage > 1) {
+          changeEbookPage(state.currentPage - 1, "prev");
+        }
+      }
+    });
+
+    // Touch swiping gestures on mobile for page turning
+    let touchstartX = 0;
+    let touchendX = 0;
+
+    elements.articleBody.addEventListener('touchstart', e => {
+      touchstartX = e.changedTouches[0].screenX;
+    }, {passive: true});
+
+    elements.articleBody.addEventListener('touchend', e => {
+      touchendX = e.changedTouches[0].screenX;
+      handleGesture();
+    }, {passive: true});
+
+    function handleGesture() {
+      if (state.activeTab === "interactive") return;
+      const rawText = state.activeTab === "full-en" ? window.ARTICLE_FULL_TEXT.en : window.ARTICLE_FULL_TEXT.tr;
+      const totalPages = rawText.split("--- PAGE ").length - 1;
+      
+      const threshold = 50; // Minimum swipe distance in px
+      if (touchendX < touchstartX - threshold) {
+        // Swipe left -> Next Page
+        if (state.currentPage < totalPages) {
+          changeEbookPage(state.currentPage + 1, "next");
+        }
+      }
+      if (touchendX > touchstartX + threshold) {
+        // Swipe right -> Prev Page
+        if (state.currentPage > 1) {
+          changeEbookPage(state.currentPage - 1, "prev");
+        }
+      }
+    }
   }
 
   // --- Update Light/Dark Theme ---
@@ -385,63 +433,182 @@ document.addEventListener("DOMContentLoaded", () => {
     attachTriggerEvents();
   }
 
-  // --- Render Full PDF Text Page-by-Page ---
-  function renderFullText() {
+  // --- Render Full PDF Text Page-by-Page as E-Book ---
+  function renderFullText(targetPageNum) {
     elements.articleBody.innerHTML = "";
+    
     const rawText = state.activeTab === "full-en" ? window.ARTICLE_FULL_TEXT.en : window.ARTICLE_FULL_TEXT.tr;
-    
-    const div = document.createElement("div");
-    div.className = "full-text-content";
-    
-    // Split on separator syntax like "--- PAGE 1 ---" or similar
     const parts = rawText.split(/--- PAGE (\d+) ---\r?\n?/);
     
-    if (parts[0] && parts[0].trim()) {
-      const p = document.createElement("p");
-      p.textContent = parts[0].trim();
-      div.appendChild(p);
+    // Parse into an array of page objects: { num: 1, text: "..." }
+    const pagesList = [];
+    for (let i = 1; i < parts.length; i += 2) {
+      pagesList.push({
+        num: parseInt(parts[i]),
+        text: parts[i+1] ? parts[i+1].trim() : ""
+      });
     }
     
-    for (let i = 1; i < parts.length; i += 2) {
-      const pageNum = parts[i];
-      const pageText = parts[i+1];
-      
-      const sep = document.createElement("div");
-      sep.className = "full-text-page-separator";
-      sep.textContent = state.language === "tr" ? `Sayfa ${pageNum}` : `Page ${pageNum}`;
-      div.appendChild(sep);
-      
-      const pageContent = document.createElement("div");
-      
-      // Inject clean interactive tables instead of mangled text on table pages
-      const activeTabLang = state.activeTab === "full-en" ? "en" : "tr";
-      if (pageNum === "12") {
-        const tableWrapper = renderTableBlock("rescissions", activeTabLang);
-        pageContent.appendChild(tableWrapper);
-      } else if (pageNum === "13") {
-        const note = document.createElement("div");
-        note.style.fontStyle = "italic";
-        note.style.color = "var(--color-text-secondary)";
-        note.style.textAlign = "center";
-        note.style.padding = "24px 0";
-        note.style.fontFamily = "var(--font-ui)";
-        note.style.fontSize = "0.9rem";
-        note.textContent = activeTabLang === "tr"
-          ? "[Tablo 1'in devamı - Sayfa 12'deki orijinal tablo ile birleştirilmiştir]"
-          : "[Continuation of Table 1 - Consolidated with the main table on Page 12]";
-        pageContent.appendChild(note);
-      } else if (pageNum === "20") {
-        const tableWrapper = renderTableBlock("comparison", activeTabLang);
-        pageContent.appendChild(tableWrapper);
+    const totalPages = pagesList.length;
+    
+    // Validate target page
+    if (targetPageNum) {
+      state.currentPage = Math.max(1, Math.min(totalPages, targetPageNum));
+    } else if (!state.currentPage || state.currentPage > totalPages) {
+      state.currentPage = 1;
+    }
+    
+    const currentPageObj = pagesList.find(p => p.num === state.currentPage) || pagesList[0];
+    
+    // Render eBook controls (Top)
+    const topControls = createEbookControls(state.currentPage, totalPages);
+    elements.articleBody.appendChild(topControls);
+    
+    // Render Page Content Container
+    const pageWrapper = document.createElement("div");
+    pageWrapper.className = "page-container";
+    pageWrapper.id = "ebook-page-content";
+    
+    const sep = document.createElement("div");
+    sep.className = "full-text-page-separator";
+    sep.textContent = state.language === "tr" ? `Sayfa ${state.currentPage}` : `Page ${state.currentPage}`;
+    pageWrapper.appendChild(sep);
+    
+    const pageContent = document.createElement("div");
+    const pageNumStr = String(state.currentPage);
+    
+    // Inject clean interactive tables instead of mangled text on table pages
+    const activeTabLang = state.activeTab === "full-en" ? "en" : "tr";
+    if (pageNumStr === "12") {
+      const tableWrapper = renderTableBlock("rescissions", activeTabLang);
+      pageContent.appendChild(tableWrapper);
+    } else if (pageNumStr === "13") {
+      const note = document.createElement("div");
+      note.style.fontStyle = "italic";
+      note.style.color = "var(--color-text-secondary)";
+      note.style.textAlign = "center";
+      note.style.padding = "24px 0";
+      note.style.fontFamily = "var(--font-ui)";
+      note.style.fontSize = "0.9rem";
+      note.textContent = activeTabLang === "tr"
+        ? "[Tablo 1'in devamı - Sayfa 12'deki orijinal tablo ile birleştirilmiştir]"
+        : "[Continuation of Table 1 - Consolidated with the main table on Page 12]";
+      pageContent.appendChild(note);
+    } else if (pageNumStr === "20") {
+      const tableWrapper = renderTableBlock("comparison", activeTabLang);
+      pageContent.appendChild(tableWrapper);
+    } else {
+      pageContent.className = "full-text-content";
+      pageContent.textContent = currentPageObj.text;
+    }
+    
+    pageWrapper.appendChild(pageContent);
+    elements.articleBody.appendChild(pageWrapper);
+    
+    // Render eBook controls (Bottom)
+    const bottomControls = createEbookControls(state.currentPage, totalPages);
+    elements.articleBody.appendChild(bottomControls);
+  }
+
+  // --- Create eBook Navigation Bar DOM Element ---
+  function createEbookControls(currentPage, totalPages) {
+    const lang = state.language;
+    const controls = document.createElement("div");
+    controls.className = "ebook-controls";
+    
+    // Prev Button
+    const btnPrev = document.createElement("button");
+    btnPrev.className = "ebook-btn";
+    btnPrev.disabled = currentPage === 1;
+    btnPrev.innerHTML = `
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="transform: rotate(180deg);">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+      <span>${lang === "tr" ? "Geri" : "Prev"}</span>
+    `;
+    btnPrev.addEventListener("click", () => changeEbookPage(currentPage - 1, "prev"));
+    
+    // Page Progress Display
+    const progress = document.createElement("div");
+    progress.className = "ebook-progress";
+    
+    const label = document.createElement("span");
+    label.textContent = lang === "tr" ? "Sayfa" : "Page";
+    
+    const input = document.createElement("input");
+    input.type = "text";
+    input.className = "ebook-page-input";
+    input.value = currentPage;
+    
+    input.addEventListener("change", () => {
+      const val = parseInt(input.value);
+      if (!isNaN(val)) {
+        changeEbookPage(val, val > currentPage ? "next" : "prev");
       } else {
-        pageContent.className = "page-text-block";
-        pageContent.textContent = pageText ? pageText.trim() : "";
+        input.value = currentPage;
+      }
+    });
+    
+    const totalLabel = document.createElement("span");
+    totalLabel.textContent = `/ ${totalPages}`;
+    
+    progress.appendChild(label);
+    progress.appendChild(input);
+    progress.appendChild(totalLabel);
+    
+    // Next Button
+    const btnNext = document.createElement("button");
+    btnNext.className = "ebook-btn";
+    btnNext.disabled = currentPage === totalPages;
+    btnNext.innerHTML = `
+      <span>${lang === "tr" ? "İleri" : "Next"}</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    `;
+    btnNext.addEventListener("click", () => changeEbookPage(currentPage + 1, "next"));
+    
+    controls.appendChild(btnPrev);
+    controls.appendChild(progress);
+    controls.appendChild(btnNext);
+    
+    return controls;
+  }
+
+  // --- Change Page with Slide Animation ---
+  function changeEbookPage(newPageNum, direction) {
+    const rawText = state.activeTab === "full-en" ? window.ARTICLE_FULL_TEXT.en : window.ARTICLE_FULL_TEXT.tr;
+    const totalPages = rawText.split("--- PAGE ").length - 1;
+    
+    const targetPage = Math.max(1, Math.min(totalPages, newPageNum));
+    if (state.currentPage === targetPage) return;
+    
+    const pageWrapper = document.getElementById("ebook-page-content");
+    if (!pageWrapper) {
+      renderFullText(targetPage);
+      return;
+    }
+    
+    // Play slide out animation
+    const outClass = direction === "next" ? "anim-out-next" : "anim-out-prev";
+    pageWrapper.classList.add(outClass);
+    
+    // Wait for animation, then render new page and play slide in
+    setTimeout(() => {
+      renderFullText(targetPage);
+      
+      const newPageWrapper = document.getElementById("ebook-page-content");
+      if (newPageWrapper) {
+        newPageWrapper.className = "page-container";
+        // Apply keyframe animation
+        newPageWrapper.style.animation = direction === "next" 
+          ? "slideInPage 0.25s forwards ease-out" 
+          : "slideInPagePrev 0.25s forwards ease-out";
       }
       
-      div.appendChild(pageContent);
-    }
-    
-    elements.articleBody.appendChild(div);
+      // Scroll reader pane back to top
+      elements.readerPane.scrollTo({ top: 0, behavior: "instant" });
+    }, 200);
   }
 
   // --- Render Tables dynamically ---
