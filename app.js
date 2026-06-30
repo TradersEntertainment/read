@@ -414,8 +414,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const pageContent = document.createElement("div");
       
       // Inject clean interactive tables instead of mangled text on table pages
+      const activeTabLang = state.activeTab === "full-en" ? "en" : "tr";
       if (pageNum === "12") {
-        const tableWrapper = renderTableBlock("rescissions");
+        const tableWrapper = renderTableBlock("rescissions", activeTabLang);
         pageContent.appendChild(tableWrapper);
       } else if (pageNum === "13") {
         const note = document.createElement("div");
@@ -425,12 +426,12 @@ document.addEventListener("DOMContentLoaded", () => {
         note.style.padding = "24px 0";
         note.style.fontFamily = "var(--font-ui)";
         note.style.fontSize = "0.9rem";
-        note.textContent = state.language === "tr"
+        note.textContent = activeTabLang === "tr"
           ? "[Tablo 1'in devamı - Sayfa 12'deki orijinal tablo ile birleştirilmiştir]"
           : "[Continuation of Table 1 - Consolidated with the main table on Page 12]";
         pageContent.appendChild(note);
       } else if (pageNum === "20") {
-        const tableWrapper = renderTableBlock("comparison");
+        const tableWrapper = renderTableBlock("comparison", activeTabLang);
         pageContent.appendChild(tableWrapper);
       } else {
         pageContent.className = "page-text-block";
@@ -444,8 +445,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // --- Render Tables dynamically ---
-  function renderTableBlock(tableName) {
-    const lang = state.language;
+  function renderTableBlock(tableName, tableLang) {
+    const lang = tableLang || state.language;
     const tableData = window.ARTICLE_DATA.tables[tableName];
 
     const wrapper = document.createElement("div");
