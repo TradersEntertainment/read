@@ -412,7 +412,31 @@ document.addEventListener("DOMContentLoaded", () => {
       div.appendChild(sep);
       
       const pageContent = document.createElement("div");
-      pageContent.textContent = pageText ? pageText.trim() : "";
+      
+      // Inject clean interactive tables instead of mangled text on table pages
+      if (pageNum === "12") {
+        const tableWrapper = renderTableBlock("rescissions");
+        pageContent.appendChild(tableWrapper);
+      } else if (pageNum === "13") {
+        const note = document.createElement("div");
+        note.style.fontStyle = "italic";
+        note.style.color = "var(--color-text-secondary)";
+        note.style.textAlign = "center";
+        note.style.padding = "24px 0";
+        note.style.fontFamily = "var(--font-ui)";
+        note.style.fontSize = "0.9rem";
+        note.textContent = state.language === "tr"
+          ? "[Tablo 1'in devamı - Sayfa 12'deki orijinal tablo ile birleştirilmiştir]"
+          : "[Continuation of Table 1 - Consolidated with the main table on Page 12]";
+        pageContent.appendChild(note);
+      } else if (pageNum === "20") {
+        const tableWrapper = renderTableBlock("comparison");
+        pageContent.appendChild(tableWrapper);
+      } else {
+        pageContent.className = "page-text-block";
+        pageContent.textContent = pageText ? pageText.trim() : "";
+      }
+      
       div.appendChild(pageContent);
     }
     
