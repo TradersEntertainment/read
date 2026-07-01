@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     sidebarArticleAuthor: document.getElementById("sidebar-article-author"),
     tocList: document.getElementById("toc-list"),
     btnOriginalPdf: document.getElementById("btn-original-pdf"),
+    btnFullTrHidden: document.getElementById("btn-full-tr-hidden"),
     
     // Stats dashboard
     statReduction: document.getElementById("stat-reduction"),
@@ -218,6 +219,11 @@ document.addEventListener("DOMContentLoaded", () => {
           elements.tabButtons.forEach(b => b.classList.remove("active"));
           btn.classList.add("active");
           
+          // Deactivate hidden footer button
+          if (elements.btnFullTrHidden) {
+            elements.btnFullTrHidden.classList.remove("active");
+          }
+          
           if (tab === "interactive") {
             elements.readerHeader.style.display = "block";
             // Show mode & depth controls in header (remove inactive styling)
@@ -245,6 +251,38 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     });
+
+    // Hidden Full Turkish Text button in sidebar footer
+    if (elements.btnFullTrHidden) {
+      elements.btnFullTrHidden.addEventListener("click", (e) => {
+        e.preventDefault();
+        const tab = "full-tr";
+        if (state.activeTab !== tab) {
+          state.activeTab = tab;
+          
+          // Deactivate top tab buttons
+          elements.tabButtons.forEach(b => b.classList.remove("active"));
+          // Activate this footer button
+          elements.btnFullTrHidden.classList.add("active");
+          
+          elements.readerHeader.style.display = "none";
+          // Dim mode & depth controls in header
+          document.querySelectorAll(".mode-selector, .depth-selector").forEach(el => {
+            el.style.opacity = "0.3";
+            el.style.pointerEvents = "none";
+          });
+          renderFullText();
+          
+          // Reset stats display in sidebar
+          elements.statReduction.textContent = "0%";
+          elements.statReductionFill.style.width = "0%";
+          elements.statHiddenBlocks.textContent = "0";
+          elements.statTimeSaved.textContent = "0m";
+          
+          closeTooltip();
+        }
+      });
+    }
 
     // Keyboard eBook page turning
     document.addEventListener("keydown", (e) => {
@@ -378,6 +416,10 @@ document.addEventListener("DOMContentLoaded", () => {
           elements.tabButtons.forEach(b => b.classList.remove("active"));
           const btnInteractive = document.querySelector('.tab-btn[data-tab="interactive"]');
           if (btnInteractive) btnInteractive.classList.add("active");
+          
+          if (elements.btnFullTrHidden) {
+            elements.btnFullTrHidden.classList.remove("active");
+          }
           
           elements.readerHeader.style.display = "block";
           document.querySelectorAll(".mode-selector, .depth-selector").forEach(el => {

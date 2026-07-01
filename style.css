@@ -364,6 +364,12 @@ body {
   box-shadow: var(--shadow-sm);
 }
 
+.btn-pdf.active {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
 .btn-pdf svg {
   width: 16px;
   height: 16px;
