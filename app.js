@@ -256,6 +256,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if (elements.btnFullTrHidden) {
       elements.btnFullTrHidden.addEventListener("click", (e) => {
         e.preventDefault();
+        
+        // Secret password check
+        const pwd = prompt("Şifre / Password:");
+        if (pwd !== "123") {
+          return; // Silently exit on wrong password
+        }
+        
         const tab = "full-tr";
         if (state.activeTab !== tab) {
           state.activeTab = tab;

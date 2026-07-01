@@ -74,7 +74,7 @@
       </div>
 
       <!-- Sidebar Footer: PDF Download & App Data Info -->
-      <div class="sidebar-footer" style="display: flex; flex-direction: column; gap: 8px;">
+      <div class="sidebar-footer" style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
         <a href="#" class="btn-pdf" id="btn-original-pdf">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
@@ -85,13 +85,7 @@
           </svg>
           <span data-en="Full Original PDF" data-tr="Orijinal PDF Sürümü"></span>
         </a>
-        <a href="#" class="btn-pdf" id="btn-full-tr-hidden">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
-            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
-          </svg>
-          <span data-en="Full Turkish Text" data-tr="Tam Metin (Türkçe)"></span>
-        </a>
+        <a href="#" id="btn-full-tr-hidden" style="display: block; width: 6px; height: 6px; background-color: var(--color-border); border-radius: 50%; text-decoration: none; transition: background-color 0.2s; margin-top: 4px;"></a>
       </div>
     </aside>
 
@@ -214,8 +208,8 @@
   </div>
 
   <!-- Script Loaders -->
-  <script src="article-data.js?v=5"></script>
-  <script src="article-full-text.js?v=5"></script>
-  <script src="app.js?v=5"></script>
+  <script src="article-data.js?v=6"></script>
+  <script src="article-full-text.js?v=6"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>

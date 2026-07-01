@@ -370,6 +370,14 @@ body {
   border-color: var(--color-primary);
 }
 
+#btn-full-tr-hidden:hover {
+  background-color: var(--color-text-secondary) !important;
+}
+
+#btn-full-tr-hidden.active {
+  background-color: var(--color-primary) !important;
+}
+
 .btn-pdf svg {
   width: 16px;
   height: 16px;
