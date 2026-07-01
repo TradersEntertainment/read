@@ -448,6 +448,42 @@ document.addEventListener("DOMContentLoaded", () => {
     attachTriggerEvents();
   }
 
+  // --- Helper to strip running headers from page text ---
+  function cleanPageText(text) {
+    if (!text) return "";
+    const lines = text.split("\n");
+    const cleanedLines = [];
+    let checkedHeaderLines = 0;
+    
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const trimmed = line.trim();
+      
+      if (checkedHeaderLines < 3 && trimmed !== "") {
+        const isHeader = 
+          /^\d+\s*-+/.test(trimmed) || 
+          /^-+\s*\d+/.test(trimmed) || 
+          /^\d+$/.test(trimmed) ||     
+          trimmed.includes("MARMARA JOURNAL OF EUROPEAN") ||
+          trimmed.includes("MARMARA AVRUPA ÇALIŞMALARI") ||
+          trimmed.includes("FRAMING CLIMATE CHANGE AS") ||
+          trimmed.includes("İKLİM DEĞİŞİKLİĞİNİN İNSAN GÜVENLİĞİ");
+          
+        if (isHeader) {
+          checkedHeaderLines++;
+          continue;
+        }
+      }
+      
+      cleanedLines.push(line);
+      if (trimmed !== "") {
+        checkedHeaderLines++;
+      }
+    }
+    
+    return cleanedLines.join("\n").trim();
+  }
+
   // --- Render Full PDF Text Page-by-Page as E-Book ---
   function renderFullText(targetPageNum) {
     elements.articleBody.innerHTML = "";
@@ -460,9 +496,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const pagesList = [];
     for (let i = 1; i < parts.length; i += 2) {
       const pageNum = parseInt(parts[i]);
+      let rawPageText = parts[i+1] ? parts[i+1].trim() : "";
+      if (pageNum !== 1) {
+        rawPageText = cleanPageText(rawPageText);
+      }
       const pageObj = {
         num: pageNum,
-        text: parts[i+1] ? parts[i+1].trim() : ""
+        text: rawPageText
       };
       window.ARTICLE_FULL_TEXT_PAGES[pageNum] = pageObj;
       pagesList.push(pageObj);
